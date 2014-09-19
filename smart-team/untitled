@@ -1,0 +1,133 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Smart Team Global</title>
+<link rel="shortcut icon" type="image/x-icon" href="favicon.png">
+<link rel="stylesheet" href="css/stylesheet.css">
+<link rel="stylesheet" href="css/responsive.css">
+<!--<link rel="stylesheet" href="css/mobile.css">-->
+<link rel="stylesheet" href="css/ipad.css">
+<header>
+
+<div style="border-top:solid 5px #dbdbdb;"></div>
+<div id="wrapper">
+    <div>
+      <div class="logo"><a href="index.html"><img src="images/logo.jpg" width="240" height="58" border="0" /></a></div>
+        <div class="fright">
+          <ul>
+            
+                <li>
+                  <a href="office.html" class="blue">Contact Us</a>
+                </li>
+                <li>
+                  <div class="search"><form action="http://www.yahoo.com.cn/search">
+                    <div class="search-text" style="display:none;"><input type="text" placeholder="Search" name="p" id="search_text"></div>
+                    <div class="search-img"><i><input type="image" src="images/icon_search20141.png" /></i></div>
+                    <input type="hidden" name="vs" value="dwww.smartteam.cn">
+                    <div class="clear"></div>
+                    </div>
+                </li>
+				<script>
+    
+	 
+	function languageswitch(){
+	 var  temp=document.getElementById("EN").innerHTML;
+	 document.getElementById("EN").innerHTML=document.getElementById("CN").innerHTML;
+	 document.getElementById("CN").innerHTML=temp;
+	 var hreftemp=document.getElementById("EN").getAttribute("href");
+	 document.getElementById("EN").setAttribute("href",document.getElementById("CN").getAttribute("href"));
+	 document.getElementById("CN").setAttribute("href",hreftemp);
+	}
+   
+</script>
+                <li style="margin-top:8px;">
+                  <div class="select" >
+                      <a href="#" id="EN" class="globe">English</a>
+                        <div class="hide" onClick="languageswitch();return false;">
+                        <ul>
+                          <li><a href="#" id="CN">简体中文</a></li>
+                            
+                        </ul>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="clear"></div>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+
+
+<div class="clear"></div>
+<div class="nav">
+        <div id="wrapper">
+            <div id='cssmenu'>
+                <ul>
+                   <li class='has-sub'><a href='#'><span>Company</span></a>
+                      <ul>
+                         <li><a href='about.html'><span>About Us</span></a>
+                           
+                         </li>
+                         <li><a href="office.html"><span>Offices</span></a>
+                           
+                         </li>
+                         <li><a href='careers.html'><span>Careers</span></a></li>
+                      </ul>
+                   </li>
+                   <li class='has-sub'><a href='#'><span>Solutions</span></a>
+                   	<ul>
+                         <li><a href='sol_newsroom.html'><span>Converged Newsroom</span></a></li>
+                     <li><a href='sol_archive_preservation_ediscovery.html'><span>Archiving, Preservation & eDiscovery</span></a></li>
+                         <li><a href='sol_security_surverillance.html'><span>Intelligent Security & Surveillance</span></a></li>
+                         <li><a href='sol_document_records.html'><span>Legal Document & Records Management</span></a></li>
+                         <li><a href='sol_healthcare.html'><span>Meaning Based Healthcare</span></a></li>
+                         <li><a href='sol_search_knowledge.html'><span>Search & Knowledge Management</span></a></li>
+                         <li><a href='sol_web_optimization.html'><span>Digital Marketing & Optimization</span></a></li>
+                    </ul>
+                   </li>
+                    <li class='has-sub'><a href='#'><span>Products</span></a>
+                    <ul>
+						<!--If you release the Ul tag Please add class='has-sub'CSS style for Li Tags-->
+						<li class=''><a href='prd_smart_lib.html'><span>SMARTLibrary</span></a>
+						<!--<ul>
+								<li><a href="#">Asian Language Package for Autonomy Teleform</a></li>
+                                <li><a href="#">Document Builders for APA</a></li>
+                                <li><a href="#">eFax Connector for APA</a></li>
+                                <li><a href="#">Exchange Connector for APA</a></li>
+                                <li><a href="#">Google Voice Portal</a></li>
+                                <li><a href="#">IDOL Indexer for APA</a></li>
+                                <li><a href="#">Portlets for Portal-In-A-Box</a></li>
+                                <li><a href="#">PDF Reader </a></li>
+                                <li><a href="#">SharePoint Export Connect Agent</a></li>
+                                <li><a href="#">Teleform Database Lookup</a></li>
+                                <li><a href="#">Teleform Oracle UCM Export Plug-in</a></li>
+                            </ul>-->
+
+                         </li>
+                    </ul>
+                    </li>
+                     <li class='has-sub'><a href='#'><span>Customers</span></a>
+                     	<ul>
+                           
+                            <li><a href="customers.html">Case Studies</a></li>
+                            <li><a href="http://my.alfresco.com" target="_blank">Customer Portal</a></li>
+                            <li><a href='http://supportportal.smartteamglb.com' target="_blank">Support Portal</a></li>
+                        </ul>
+
+                     </li>
+                      <li class='has-sub'><a href='partnership.html'><span>Partnership</span></a>
+                      	<ul>
+                            <li><a href="partnership.html">HP Autonomy</a></li>
+                            <li><a href="partnership.html#2">EidosMedia</a></li>
+                            <li><a href="partnership.html#3">Riverbed</a></li>
+                        </ul>
+
+                      </li>
+                       <li><a href='news.html'><span>News</span></a></li>
+                   
+                </ul>
+            </div>
+        </div>
+</div>
+</header>

@@ -1,0 +1,335 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Smart Team Global</title>
+<link rel="shortcut icon" type="image/x-icon" href="favicon.png">
+<link rel="stylesheet" href="css/stylesheet.css">
+<link rel="stylesheet" href="css/responsive-inner.css">
+
+<link rel="stylesheet" href="css/ipad.css">
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:400,300,600" />
+
+
+  <!-----------------menu------------------->
+   <link rel="stylesheet" href="css/menu.css">
+   <script src="js/jquery-latest.min.js" type="text/javascript"></script>
+<script src="js/script.js"></script>
+    <!-----------------menu end------------------->
+    <script src="js/classie.js"></script>
+	<script src="http://chatserver.comm100.com/js/LiveChat.js?siteId=44205&planId=260" 
+type="text/javascript"></script>
+<script>
+    function init() {
+        window.addEventListener('scroll', function(e){
+            var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+                shrinkOn = 50,
+                header = document.querySelector("header");
+            if (distanceY > shrinkOn) {
+                classie.add(header,"smaller");
+            } else {
+                if (classie.has(header,"smaller")) {
+                    classie.remove(header,"smaller");
+                }
+            }
+        });
+    }
+    window.onload = init();
+</script>
+        <script type="text/javascript" src="js/scrolltopcontrol.js"></script>
+        <script type='text/javascript' src='js/jquery.nicescroll.min.js'></script>
+    <script>
+  $(document).ready(function() {
+    var nicesx = $("#boxscroll").niceScroll({touchbehavior:false,cursorcolor:"#555",cursoropacitymax:0.8,cursorwidth:3});
+  });
+
+</script>
+
+<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport" />
+<link rel="stylesheet" type="text/css" href="css/animations.css" />
+
+</head>
+<body id="boxscroll">
+<!--------------------Header-------------------->
+<script>
+$(document).ready(function(){
+  $(".search-img").hover(function(){
+    $(".search-text").show();
+    $("#search_text").focus(); 
+  });
+
+  $("body").click(function(){$(".search-text").hide();});
+});
+</script>
+
+
+
+<header>
+
+<div style="border-top:solid 5px #dbdbdb;"></div>
+<div id="wrapper">
+    <div>
+      <div class="logo"><a href="index.html"><img src="images/logo.jpg" width="240" height="58" border="0" /></a></div>
+        <div class="fright">
+          <ul>
+            
+                <li>
+                  <a href="office.html" class="blue">Contact Us</a>
+                </li>
+                <li>
+                  <div class="search"><form action="http://www.yahoo.com.cn/search">
+                    <div class="search-text" style="display:none;"><input type="text" placeholder="Search" name="p" id="search_text"></div>
+                    <div class="search-img"><i><input type="image" src="images/icon_search20141.png" /></i></div>
+                    <input type="hidden" name="vs" value="www.smartteam.cn">
+                    <div class="clear"></div>
+                    </div>
+                </li>
+				<script>
+    
+	 
+	function languageswitch(){
+	 var  temp=document.getElementById("EN").innerHTML;
+	 document.getElementById("EN").innerHTML=document.getElementById("CN").innerHTML;
+	 document.getElementById("CN").innerHTML=temp;
+	 var hreftemp=document.getElementById("EN").getAttribute("href");
+	 document.getElementById("EN").setAttribute("href",document.getElementById("CN").getAttribute("href"));
+	 document.getElementById("CN").setAttribute("href",hreftemp);
+	}
+   
+</script>
+                <li style="margin-top:8px;">
+                  <div class="select">
+                      <a href="#" id="EN" class="globe">English</a>
+                        <div class="hide" id="EN" onClick="languageswitch();return false;">
+                        <ul>
+                            <li><a href="#" id="CN">简体中文</a></li>
+                        </ul>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="clear"></div>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+
+<div class="clear"></div>
+<div class="nav">
+        <div id="wrapper">
+            <div id='cssmenu'>
+                <ul>
+                   <li class='has-sub'><a href='#'><span>Company</span></a>
+                      <ul>
+                         <li><a href='about.html'><span>About Us</span></a>
+                           
+                         </li>
+                         <li><a href="office.html"><span>Offices</span></a>
+                           
+                         </li>
+                         <li><a href='careers.html'><span>Careers</span></a></li>
+                      </ul>
+                   </li>
+                   <li class='has-sub'><a href='#'><span>Solutions</span></a>
+                   	<ul>
+                         <li><a href='sol_newsroom.html'><span>Converged Newsroom</span></a></li>
+						<li><a href='sol_archive_preservation_ediscovery.html'><span>Archiving, Preservation & eDiscovery</span></a></li>
+                         <li><a href='sol_security_surverillance.html'><span>Intelligent Security & Surveillance</span></a></li>
+                         <li><a href='sol_document_records.html'><span>Legal Document & Records Management</span></a></li>
+                         <li><a href='sol_healthcare.html'><span>Meaning Based Healthcare</span></a></li>
+                         <li><a href='sol_search_knowledge.html'><span>Search & Knowledge Management</span></a></li>
+                         <li><a href='sol_web_optimization.html'><span>Digital Marketing & Optimization</span></a></li>
+                    </ul>
+                   </li>
+                    <li class='has-sub'><a href='#'><span>Products</span></a>
+                    	<ul>
+							<li class=''><a href='prd_smart_lib.html'><span>SMARTLibrary</span></a>
+							<!--<ul>
+									<li><a href="#">Asian Language Package for Autonomy Teleform</a></li>
+									<li><a href="#">Document Builders for APA</a></li>
+									<li><a href="#">eFax Connector for APA</a></li>
+									<li><a href="#">Exchange Connector for APA</a></li>
+									<li><a href="#">Google Voice Portal</a></li>
+									<li><a href="#">IDOL Indexer for APA</a></li>
+									<li><a href="#">Portlets for Portal-In-A-Box</a></li>
+									<li><a href="#">PDF Reader </a></li>
+									<li><a href="#">SharePoint Export Connect Agent</a></li>
+									<li><a href="#">Teleform Database Lookup</a></li>
+									<li><a href="#">Teleform Oracle UCM Export Plug-in</a></li>
+								</ul>-->
+
+							</li>
+						</ul>
+                    </li>
+                     <li class='has-sub'><a href='#'><span>Customers</span></a>
+                     	<ul>
+                            
+                            <li><a href="customers.html">Case Studies</a></li>
+                            <li><a href="http://my.alfresco.com" target="_blank">Customer Portal</a></li>
+                            <li><a href='http://supportportal.smartteamglb.com' target="_blank">Support Portal</a></li>
+                        </ul>
+
+                     </li>
+                      <li class='has-sub'><a href='partnership.html'><span>Partnership</span></a>
+                      	<ul>
+                            <li><a href="partnership.html">HP Autonomy</a></li>
+                             <li><a href="partnership.html#2">EidosMedia</a></li>
+                            <li><a href="partnership.html#3">Riverbed</a></li>
+                        </ul>
+
+                      </li>
+                       <li><a href='news.html'><span>News</span></a></li>
+                 
+                </ul>
+            </div>
+        </div>
+</div>
+</header>
+
+<!--------------------end-------------------->
+
+<section>
+  <div class="breadcrum wrapper"> <a href="#">Home</a> / <a href="#">Company</a> / <em>About Us</em> </div>
+  <div class="text-area1 wrapper">
+    <div class="col-1"> 
+       <h4>Solutions</h4>
+                <ul>
+                	<li><a href="sol_newsroom.html">Converged Newsroom</a></li>
+                   
+                    <li><a href="sol_archive_preservation_ediscovery.html">Archiving, Preservation & eDiscovery</a></li>
+                    <li><a href="sol_security_surverillance.html">Intelligent Security & Surveillance</a></li>
+					<li><a href="sol_document_records.html">Legal Document & Records Management</a></li>
+                   
+                    <li><a href="sol_healthcare.html">Meaning Based Healthcare</a></li>
+                    <li><a href="sol_search_knowledge.html">Search & Knowledge Management</a></li>
+					<li><a href="sol_web_optimization.html">Digital Marketing & Optimization</a></li>
+                </ul>
+      
+      <div class="phone-box">
+        <h3><img src="images/ph-icone.png" width="17" height="22" />1.855.88.SMART</h3>
+      </div>
+
+      <div class="bl-box">
+        <h3><a href="mailto:web@smartteamglb.com" style="color:#fff;"><img src="images/email.png"  />Email Us</a></h3>
+      </div>
+      
+      <div class="sky-box">
+        <h3><a href="http://www.comm100.com/livechat" onclick="comm100_Chat();return false;" target="_blank" title="Online Chat" style="color:#fff;"><img src="images/chat1.png"  />Online Chat</a></h3>
+      </div>
+      <!--<div class="sky-box">
+     
+   <div style="height:30px; margin-top:-23px;" class="skype">
+        <script type="text/javascript" src="js/skype-uri.js"></script>
+<div id="SkypeButton_Call_linl.stg_1" >
+  <script type="text/javascript">
+    Skype.ui({
+      "name": "chat with us",
+      "element": "SkypeButton_Call_linl.stg_1",
+      "participants": ["linl.stg"],
+      "imageColor": "white",
+      "imageSize": 24
+    });
+  </script>
+</div>
+
+     
+     </div>
+   
+      </div>-->
+      <div class="bl-box2">
+        <a href="https://www.youtube.com/channel/UCJvmjUWnPeOzvoHlKI-iJHQ"><h3><img src="images/youtube1.png" > Smart Team  Channel</h3></a>
+      </div>
+    </div>
+    <div class="col-2">
+      <div class="fleft">
+           <!--begin-->
+    <h1>Meaning Based Healthcare</h1>
+    <div >
+        <p>In 2014, all Patient Healthcare Records will be electronic, what is the next step? The next step is to provide a powerful platform to understand all these information in both structured and unstructured format and make them useful for clinical diagnosis, meanwhile provides information governance to help Healthcare Delivery Organizations (HDOs) provide higher quality care at lower costs. </p>
+        <!--<p>&nbsp;</p>-->
+        <p>Autonomy Meaning Based Healthcare leverages the company's proven track record of working with some of the world's largest HDOs as well as the company's unique ability to automatically understand and process all forms of unstructured healthcare information. structure software for the enterprise, today announced the availability of the Autonomy Meaning Based Healthcare (MBH) platform, a comprehensive set of clinical diagnosis and information governance technologies designed to help Healthcare Delivery Organizations (HDOs) provide higher quality care at lower costs. Today Autonomy is a significant player in the healthcare market, with over ten years of experience in providing groundbreaking technology to HDOs including the American Medical Association, BlueCross BlueShield, Kaiser Permanente, Loma Linda University Medical Center, NHS, and Sutter Health.</p>
+       <!-- <p>&nbsp;</p>-->
+        <p><u><i>"We are excited about Autonomy's Meaning Based Healthcare initiative and the unique opportunity it provides to healthcare organizations to leverage the sprawling nature of medical information, easing the transition to electronic records," said Brian Harris, Executive Director, Enterprise Solutions at Loma Linda University Medical Center. "Healthcare providers that are able to better leverage unstructured and structured information stored within their healthcare applications will improve quality of care, reduce costs, and treat far greater numbers of patients."</i></u></p>
+    </div>
+    
+    <h1>Improved Understanding of Patient Information with Autonomy Auminence</h1>
+    <div >
+        <p>Diagnosis is a vital stage of patient care. Healthcare providers think in terms of diagnoses, create treatment plans based on diagnoses, and investigate likely causes of various diseases. A correct and early diagnosis improves the quality of care, and reduces overall healthcare costs. Autonomy Auminence, a powerful point-of-care analysis dashboard, is designed to help the provider make better quality, data-driven, evidence-based diagnosis decisions. Based on Autonomy's unique Bayesian inference technology, Auminence represents a breakthrough for healthcare providers seeking to transform healthcare delivery through a deeper and more meaningful understanding of their data.</p>
+        <!--<p>&nbsp;</p>-->
+        <p>Auminence allows a healthcare professional to combine their personal knowledge with the wealth of knowledge that exists on the patient and their symptoms, clinical features, and related diseases - contained in the vast volumes of "human-friendly" information that make up healthcare data. Autonomy's unique technology automatically understands the meaning within all this human-friendly information, draws parallels in the data, and recognizes concepts and patterns.</p>
+       <!-- <p>&nbsp;</p>-->
+        <p>Auminence provides a checklist of diagnoses for the clinician to consider - indicating diagnoses that have the strongest statistical significance - and also presents to the provider the all-important "unknown-unknowns" that are ever-present at the point-of-care. These diagnoses may not be obvious, but by connecting together important pieces of Electronic Medical Record data, lead conclusively to a strong candidate for the correct diagnosis.</p>
+       
+    </div>
+    
+     <h1>Archive and Secure Healthcare Data with Autonomy Information Governance</h1>
+    <div >
+        <p>In recent years, healthcare delivery organizations have faced dramatically increasing information governance challenges. The pace and complexity of healthcare privacy and governance regulations continues to rise, and legacy technologies struggle to properly understand and manage HDO's enormous sets of data. The Federal Rules of Civil Procedure (FRCP) now applies to data in the EHR, and healthcare providers must apply legal holds to data as necessary and appropriate.</p>
+        <!--<p>&nbsp;</p>-->
+        <p>As the global leader in information governance technology, Autonomy is ideally positioned to help HDOs address these challenges. Autonomy is the market leader in archiving, compliance, eDiscovery, and records management, and also leads the market in private cloud computing, with over 17 Petabytes under management. The company will apply the same meaning-based technologies that have transformed information governance for the financial services, legal, pharmaceutical, and retail, to the healthcare market.</p>
+       <!-- <p>&nbsp;</p>-->
+        <p>Healthcare Delivery Organizations can leverage Autonomy's cloud and on-premise information governance solutions to build out a much more intelligent information governance strategy that better protects their organization and drives down costs. Autonomy can archive and secure patient records&mdash;even as medical archiving regulations change&mdash;because it automatically recognizes concepts and contexts within all forms of information, and injects this understanding into the company's comprehensive set of information governance modules. Autonomy is also ideally suited to manage electronic health records because it operates as an independent governance authority over all of an organization's content, managing and controlling content 'in-place', regardless of format or location.</p>
+        <!--<p>&nbsp;</p>-->
+        <p>Autonomy is ideally positioned to provide improved understanding and diagnosis of patient information and deliver comprehensive information governance technologies that secure patient records and maintain compliance with the ever-expanding set of healthcare regulations. Healthcare Delivery Organizations today confront a constantly growing volume of unstructured and structured healthcare information, increasingly complex industry regulations, and heightened patient expectations and empowerment. Also, healthcare providers worldwide face an increasing pressure to move to Electronic Health Records (EHR). For example, in the United States, the recently-passed American Recovery and Reinvestment Act (ARRA) requires health care providers to implement both Electronic Health Records and meet increasingly demanding 'meaningful use' outcome measures.</p>
+       <!-- <p>&nbsp;</p>-->
+        <p>As the world's leading provider of software for unstructured information, and the market leader in information governance technologies, Autonomy's Meaning Based Healthcare platform is the ideal solution for the new era in healthcare.</p>
+         <!--<p>&nbsp;</p>-->
+        <p><i>"We are excited about Autonomy's Meaning Based Healthcare initiative and the unique opportunity it provides to healthcare organizations to leverage the sprawling nature of medical information, easing the transition to electronic records," said Brian Harris, Executive Director, Enterprise Solutions at Loma Linda University Medical Center. "Healthcare providers that are able to better leverage unstructured and structured information stored within their healthcare applications will improve quality of care, reduce costs, and treat far greater numbers of patients."</i></p>
+    </div>
+       <!--end-->
+      </div>
+      
+      <div class="clear"></div>
+    </div>
+    <div class="clear"></div>
+  </div>
+</section>
+
+<div class="clear"><br /></div>
+
+<!--===========Social Media============-->    
+    <section>
+    	<div class="social-media wrapper">
+    <div class="icon-mid-line">
+        <div class="icon">
+            <a href="https://www.facebook.com/SmartTeamGlobalLlc"><img src="images/fb.png" /></a>
+            <a href="https://twitter.com/smartteamglb"><img src="images/twi.png" /></a>
+            <a href="https://www.youtube.com/channel/UCJvmjUWnPeOzvoHlKI-iJHQ"><img src="images/youtube.png" /></a>
+            <a href="#"><img src="images/insta.png" /></a>
+            <a href="#"><img src="images/chat.png" /></a>
+            <a href="http://weibo.com/smartteamglobal"><img src="images/gps.png" /></a>
+        </div>
+    <div class="clear"></div>
+    </div>
+</div>
+    </section>
+<!--========End============-->    
+
+    
+<!--===========Footer============-->    
+	 <footer>
+ 	<div class="twi-feed wrapper">
+    	<span>Latest Tweet:</span> 
+       <p><span>Jul 07, 2014 21:31:51</span> - Dahui Lawyers in Beijing, China, choose STG to implement the iManage WorkSite solutions...</p>
+      	<p><span>Jul 07, 2014 21:30:54</span> - City of Boston choose STG to perform the upgrades and migration for their HPPA System...</p>
+        <p><span>Jul 29, 2013 17:55:30</span> - E&J Gallo Winery chose STG to enhance its Contract Management Platform powered by HP Autonomy ECM Suite...</p>
+    </div>
+    <div class="foot-link wrapper">
+    	<ul>
+        	<li><a href="about.html">Company</a></li>
+            <li><a href="sol_newsroom.html">Solutions</a></li>
+            <li><a href="prd_smart_lib.html">Products</a></li>
+            <li><a href="customers.html">Customers</a></li>
+            <li><a href="partnership.html">Partnership</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="http://supportportal.smartteamglb.com">Support Portal</a></li>
+        </ul>
+        <div class="clear"></div>
+    </div>
+    <div class="copy wrapper"> © 2014 Smart Team Global. Use constitutes acceptance of General Website  <a href="privacypolicy.html">Privacy Statement</a>
+            </div>
+ </footer>   
+
+<!--========End============-->    
+
+</body>
+</html>

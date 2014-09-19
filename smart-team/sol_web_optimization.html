@@ -1,0 +1,358 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Smart Team Global</title>
+<link rel="shortcut icon" type="image/x-icon" href="favicon.png">
+<link rel="stylesheet" href="css/stylesheet.css">
+<link rel="stylesheet" href="css/responsive-inner.css">
+
+<link rel="stylesheet" href="css/ipad.css">
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:400,300,600" />
+
+
+  <!-----------------menu------------------->
+   <link rel="stylesheet" href="css/menu.css">
+   <script src="js/jquery-latest.min.js" type="text/javascript"></script>
+<script src="js/script.js"></script>
+    <!-----------------menu end------------------->
+    <script src="js/classie.js"></script>
+	<script src="http://chatserver.comm100.com/js/LiveChat.js?siteId=44205&planId=260" 
+type="text/javascript"></script>
+<script>
+    function init() {
+        window.addEventListener('scroll', function(e){
+            var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+                shrinkOn = 50,
+                header = document.querySelector("header");
+            if (distanceY > shrinkOn) {
+                classie.add(header,"smaller");
+            } else {
+                if (classie.has(header,"smaller")) {
+                    classie.remove(header,"smaller");
+                }
+            }
+        });
+    }
+    window.onload = init();
+</script>
+        <script type="text/javascript" src="js/scrolltopcontrol.js"></script>
+        <script type='text/javascript' src='js/jquery.nicescroll.min.js'></script>
+    <script>
+  $(document).ready(function() {
+    var nicesx = $("#boxscroll").niceScroll({touchbehavior:false,cursorcolor:"#555",cursoropacitymax:0.8,cursorwidth:3});
+  });
+
+</script>
+
+<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport" />
+<link rel="stylesheet" type="text/css" href="css/animations.css" />
+
+</head>
+<body id="boxscroll">
+<!--------------------Header-------------------->
+<script>
+$(document).ready(function(){
+  $(".search-img").hover(function(){
+    $(".search-text").show();
+    $("#search_text").focus();
+  });
+
+  $("body").click(function(){$(".search-text").hide();});
+});
+</script>
+
+
+
+<header>
+
+<div style="border-top:solid 5px #dbdbdb;"></div>
+<div id="wrapper">
+    <div>
+      <div class="logo"><a href="index.html"><img src="images/logo.jpg" width="240" height="58" border="0" /></a></div>
+        <div class="fright">
+          <ul>
+            
+                <li>
+                  <a href="office.html" class="blue">Contact Us</a>
+                </li>
+                <li>
+                  <div class="search"><form action="http://www.yahoo.com.cn/search">
+                    <div class="search-text" style="display:none;"><input type="text" placeholder="Search" name="search_text" id="p"></div>
+                    <div class="search-img"><i><input type="image" src="images/icon_search20141.png" /></i></div>
+                    <input type="hidden" name="vs" value="www.smartteam.cn">
+                    <div class="clear"></div>
+                    </div>
+                </li>
+				<script>
+    
+	 
+	function languageswitch(){
+	 var  temp=document.getElementById("EN").innerHTML;
+	 document.getElementById("EN").innerHTML=document.getElementById("CN").innerHTML;
+	 document.getElementById("CN").innerHTML=temp;
+	 var hreftemp=document.getElementById("EN").getAttribute("href");
+	 document.getElementById("EN").setAttribute("href",document.getElementById("CN").getAttribute("href"));
+	 document.getElementById("CN").setAttribute("href",hreftemp);
+	}
+   
+</script>
+                <li style="margin-top:8px;">
+                  <div class="select">
+                      <a href="#"  id="EN" class="globe">English</a>
+                        <div class="hide" onClick="languageswitch();return false;">
+                        <ul>
+                          <li><a href="#" id="CN">简体中文</a></li>
+                        </ul>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="clear"></div>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+
+<div class="clear"></div>
+<div class="nav">
+        <div id="wrapper">
+            <div id='cssmenu'>
+                <ul>
+                   <li class='has-sub'><a href='#'><span>Company</span></a>
+                      <ul>
+                         <li><a href='about.html'><span>About Us</span></a>
+                           
+                         </li>
+                         <li><a href="office.html"><span>Offices</span></a>
+                           
+                         </li>
+                         <li><a href='careers.html'><span>Careers</span></a></li>
+                      </ul>
+                   </li>
+                   <li class='has-sub'><a href='#'><span>Solutions</span></a>
+                   	<ul>
+                         <li><a href='sol_newsroom.html'><span>Converged Newsroom</span></a></li>
+						<li><a href='sol_archive_preservation_ediscovery.html'><span>Earchiving, Preservation & eDiscovery</span></a></li>
+                         <li><a href='sol_security_surverillance.html'><span>Intelligent Security & Surveillance</span></a></li>
+                         <li><a href='sol_document_records.html'><span>Legal Document & Records Management</span></a></li>
+                         <li><a href='sol_healthcare.html'><span>Meaning Based Healthcare</span></a></li>
+                         <li><a href='sol_search_knowledge.html'><span>Search & Knowledge Management</span></a></li>
+                         <li><a href='sol_web_optimization.html'><span>Digital Marketing & Optimization</span></a></li>
+                    </ul>
+                   </li>
+                    <li class='has-sub'><a href='#'><span>Products</span></a>
+                    	<ul>
+							<li class=''><a href='prd_smart_lib.html'><span>SMARTLibrary</span></a>
+							<!--<ul>
+									<li><a href="#">Asian Language Package for Autonomy Teleform</a></li>
+									<li><a href="#">Document Builders for APA</a></li>
+									<li><a href="#">eFax Connector for APA</a></li>
+									<li><a href="#">Exchange Connector for APA</a></li>
+									<li><a href="#">Google Voice Portal</a></li>
+									<li><a href="#">IDOL Indexer for APA</a></li>
+									<li><a href="#">Portlets for Portal-In-A-Box</a></li>
+									<li><a href="#">PDF Reader </a></li>
+									<li><a href="#">SharePoint Export Connect Agent</a></li>
+									<li><a href="#">Teleform Database Lookup</a></li>
+									<li><a href="#">Teleform Oracle UCM Export Plug-in</a></li>
+								</ul>-->
+
+							</li>
+						</ul>
+                    </li>
+                     <li class='has-sub'><a href='#'><span>Customers</span></a>
+                     	<ul>
+                            
+                            <li><a href="customers.html">Case Studies</a></li>
+                            <li><a href="http://my.alfresco.com" target="_blank">Customer Portal</a></li>
+                            <li><a href='http://supportportal.smartteamglb.com' target="_blank">Support  Portal</a></li>
+                        </ul>
+
+                     </li>
+                      <li class='has-sub'><a href='partnership.html'><span>Partnership</span></a>
+                      	<ul>
+                            <li><a href="partnership.html">HP Autonomy</a></li>
+                             <li><a href="partnership.html#2">EidosMedia</a></li>
+                            <li><a href="partnership.html#3">Riverbed</a></li>
+                        </ul>
+
+                      </li>
+                       <li><a href='news.html'><span>News</span></a></li>
+                   
+                </ul>
+            </div>
+        </div>
+</div>
+</header>
+
+<!--------------------end-------------------->
+
+<section>
+  <div class="breadcrum wrapper"> <a href="#">Home</a> / <a href="#">Company</a> / <em>About Us</em> </div>
+  <div class="text-area1 wrapper">
+    <div class="col-1"> 
+       <h4>Solutions</h4>
+                <ul>
+                	<li><a href="sol_newsroom.html">Converged Newsroom</a></li>
+                   
+                    <li><a href="sol_archive_preservation_ediscovery.html">Archiving, Preservation & eDiscovery</a></li>
+                    <li><a href="sol_security_surverillance.html">Intelligent Security & Surveillance</a></li>
+					<li><a href="sol_document_records.html">Legal Document & Records Management</a></li>
+                   
+                    <li><a href="sol_healthcare.html">Meaning Based Healthcare</a></li>
+                    <li><a href="sol_search_knowledge.html">Search & Knowledge Management</a></li>
+					<li><a href="sol_web_optimization.html">Digital Marketing & Optimization</a></li>
+                </ul>
+           
+      
+      <div class="phone-box">
+        <h3><img src="images/ph-icone.png" width="17" height="22" />1.855.88.SMART</h3>
+      </div>
+      <div class="bl-box">
+        <h3><a href="mailto:contactus@smartteamglb.com" style="color:#fff;"><img src="images/email.png"  />Email Us</a></h3>
+      </div>
+      
+      <div class="sky-box">
+        <h3><a href="http://www.comm100.com/livechat" onclick="comm100_Chat();return false;" target="_blank" title="Online Chat" style="color:#fff;"><img src="images/chat1.png"  />Online Chat</a></h3>
+      </div>
+      <!--<div class="sky-box">
+     
+   <div style="height:30px; margin-top:-23px;" class="skype">
+        <script type="text/javascript" src="js/skype-uri.js"></script>
+<div id="SkypeButton_Call_linl.stg_1" >
+  <script type="text/javascript">
+    Skype.ui({
+      "name": "chat with us",
+      "element": "SkypeButton_Call_linl.stg_1",
+      "participants": ["linl.stg"],
+      "imageColor": "white",
+      "imageSize": 24
+    });
+  </script>
+</div>
+
+     
+     </div>
+   
+      </div>-->
+      <div class="bl-box2">
+        <a href="https://www.youtube.com/channel/UCJvmjUWnPeOzvoHlKI-iJHQ"><h3><img src="images/youtube1.png" > Smart Team  Channel</h3></a>
+      </div>
+    </div>
+    <div class="col-2">
+      <div class="fleft">
+	   
+        <h1>Digital Marketing & Optimization</h1>
+        <p>Web Content Management (WCM), a key element in marketing strategies for more than a decade, has seen a shift in requirements as the digital marketplace evolves. With the proliferation of such elements as social media and advanced mobile devices, clients are expecting more than the traditional one-size-fits-all digital experience. Today, providing targeted and multichannel customer experiences is key to establishing loyalty, strengthening brand, and driving revenue. The dilemma is that modern businesses have an abundance of content to be managed and delivered, multiple channels of interaction, and customers with ever-changing needs. Creating a valuable and compelling multichannel experience requires a powerful and easy solution for marketers to access, understand, and leverage all enterprise assets, as well as social and third-party content. Unfortunately, most enterprises manage web-based content in a separate, disconnected repository, where assets are too hard to find and repurpose, social media is ignored, and customer experiences are not targeted or optimized.</p>
+        <h1>Engage and Service Customers </h1>
+        <div >
+          <p>All businesses struggle with vast amounts of information; namely, how to get the right content to the right person, be it a knowledge worker, call center representative, or human resources director. This problem becomes almost unmanageable when it comes to the customer, who may have little knowledge of what information is available, and most importantly how to access it. How do customers get the most relevant and up-to-date information, from whatever source, through their channel of choice? How does the marketer best engage the customers who are now more sophisticated, social, unpredictable, and as unique as their email addresses? Traditional approaches to these issues have been based on patch-working a variety of tools together, including complex middleware, proprietary applications, and first-generation WCM systems, all which have been overwhelmed with integration requirements, quantity of content, and the evolving requirements of social media. </p>
+          <!-- <p>&nbsp;</p>-->
+          <p>Today, the modern WCM system must go beyond traditional HTML publishing to provide a platform for Customer Experience Management that includes: </p>
+          <!-- <p>&nbsp;</p>-->
+          <p>
+          <ul>
+            <li>Quick and effective management and delivery of compelling and engaging content to any channel </li>
+            <li>Customer intelligence captured from any interaction, analyzed for insight, and then leveraged to provide a personalized multichannel experience </li>
+            <li>Real-time segmentation and optimization in order to drive revenue by servicing each customer with the right content at the right time</li>
+          </ul>
+          </p>
+        </div>
+        <h1>Unlocking Enterprise Content </h1>
+        <p> Autonomy’s Web Content Management (WCM), powered by Autonomy's Intelligent Data Operating Layer (IDOL), provides the industry's only WCM solution that leverages pattern-based, language-independent technology for real-time, conceptual, and contextual understanding of data gathered from interactions across multiple channels and sources &mdash; including websites, emails, tweets, blogs, audio, video, images, CRM, ERP, and many others. Autonomy allows marketers to access untapped content sources, as well as capture and analyze customer interactions for extracting unparalleled customer insight. <br>
+          Autonomy Web Content Management automates the entire process of managing content across websites, mobile platforms, rich internet applications (RIAs), collaboration sites, and portals, including authoring, site design, application deployment, content targeting, site analytics, social media analysis, rich media management, and multivariable testing &ndash; allowing marketers to leverage new opportunities, drive business growth, get to market quickly, and protect their brand. At the core of Autonomy WCM is a proven and highly scalable platform that provides marketers with powerful yet intuitive user interfaces to manage all aspects of their marketing campaigns without undue reliance on IT. </p>
+        <h1>The Foundation for All Multichannel Initiatives </h1>
+        <p> Autonomy Web Content Management delivers a comprehensive marketing platform that enables businesses to automatically gain insight into all forms of customer interaction, act on new emerging opportunities, and continually optimize these interactions to maximize results. Autonomy WCM manages every type of content while automating the processes involved in producing online initiatives and marketing communications. <br>
+          Companies use Autonomy Web Content Management to easily and cost-effectively create and manage one, tens, hundreds, or even thousands of websites, microsites, and landing pages. The solution powers corporate and eCommerce sites, employee intranets, support portals, and marketing microsites, extranets for dealers, agents, and partners; as well as email, mobile, and print. The solution is deployed to a large and growing customer base, powering over 35,000 websites worldwide, with the world's most successful companies, including Bank of America, Cisco, Discovery Communications, GE, Siemens, Tesco, and Virgin Mobile using it as the foundation for managing and marketing high-value, strategic content. </p>
+        <h1>Boost Marketing Performance Through End-to-End Optimization</h1>
+        <p> Autonomy provides the most comprehensive, end-to-end offering for real-time campaign marketing optimization through superior science. It enables marketers to gain valuable insight from all their campaign data, regardless of channel, and leverage that data to more effectively attract and convert their audience. Autonomy's meaning-based technology brings the industry's most advanced testing, pattern-matching, targeting, and optimization capabilities under a single platform. Marketers are able to develop a deep understanding of customer interactions across channels and use their knowledge to identify and automatically execute the most optimal marketing strategy. <br>
+          Creating profitable customer experiences when customers are moving targets and brands are splintered used to be highly complex. But leveraging technology to optimize those experiences across channels does not have to be difficult. Autonomy has figured this out. Understand. Attract. Convert. Retain. </p>
+        <h1>Attract the Highest Value Traffic </h1>
+        <p> Autonomy offers marketers smart and reliable technology to identify and successfully attract the highest quality traffic to your site. You can now get a comprehensive view of the customer acquisition pipeline, search, social and mobile with automated suggestions for improving flow through for all your marketing campaigns. Marketing Optimization ensures you get the biggest impact for your marketing spend. The Autonomy solution determines the most effective bid for each keyword and match type across Google, Bing, Yahoo and Facebook and automatically places and refines bids based on portfolio performance. Autonomy’s solution recommends profitable keywords by analyzing and weighting keywords in your page content and those used by actual visitors, and negative keywords based on the performance of pay-per-click keywords so you can improve the return on your search dollar. <br>
+          Autonomy Marketing Optimization allows marketers to analyze web pages and tune them to attract more natural search traffic. The platform will instantly generate a detailed report for you to assess the overall health of a web page and continually analyzes your web pages to improve page rank and increase organic traffic to your website. <br>
+          The Autonomy solution monitors link-building progress and generates a list of recently added inbound links, retired links, and top web sites driving referral traffic. You can now track natural search page rank trending over time allowing easy identification of progress as well as opportunities for improvement. </p>
+        <h1>Convert Customers More Effectively through Testing</h1>
+        <div >
+          <p> Autonomy enables marketers to maximize inbound traffic and website conversion rates based on the real-time behavior of actual customers. Using advanced online testing techniques coupled with patent-pending technology, marketers can determine the optimal combination of content, offers, and layout for maximizing conversion rates and online results. Without the need to manually tag pages for testing, you can start optimizing from the same interface used for creating landing pages. Whether you are new to online testing or need a sophisticated solution capable of handling a large set of complex business requirements, Autonomy has the optimization solution for your business. There are multiple types of experiments you can leverage to ensure that the right content gets delivered to the right visitor in the right method. </p>
+          <p>
+          <ul>
+            <li>Page Concept (A/B) Testing is used to test radically different page concepts and gain initial insights and direction for Multivariate Testing </li>
+            <li> Simple Multivariate Testing allows you to easily test offers, price points, images, and content on your site simultaneously </li>
+            <li> Full-Page Multivariate Testing is the most powerful and flexible online optimization method. It enables you to test millions of content variations and test relationships among elements to identify optimal combinations for any web page </li>
+          </ul>
+          </p>
+          <p>Autonomy provides your company with a simple solution for testing virtually limitless permutations of copy, offers, layouts, and any other factors, resulting in dramatic increases in conversion rates and online sales.</p>
+        </div>
+        <h1>Refine Testing Through Customer Segmentation </h1>
+        <div >
+          <p> Autonomy also offers a powerful content and audience targeting engine that allows you to segment your visitors according to specific characteristics and then optimize content appropriately for each individual segment. The offering pulls in demographic and psychographic data from multiple sources, such as Acxiom, Experian, and home-grown systems to cluster and segment for real-time targeting and experimentation. This leads to the discovery of the highest value customer segments for refined testing in the most cost-effective manner. </p>
+          <p> Content targeting can be used: </p>
+          <p>
+          <ul>
+            <li> In conjunction with testing to optimize each page differently for each segment</li>
+            <li>After an optimization experiment to deliver “winning” creatives to different audience segments</li>
+            <li> As a standalone to deliver appropriate combinations of content to different visitors </li>
+          </ul>
+          </p>
+          <p> Autonomy also allows you to find undiscovered segments significant to your marketing initiative. Our unique smart technology automatically detects and discovers highly granular segments of customers who share meaningful characteristics and matches them with the creative content and messages that generate the highest response. This information can be used to quickly create targeted campaigns to influence key groups with offers and con¬tent that compels them to take action. </p>
+        </div>
+        <h1>Superior Results Through Unparalleled Expertise </h1>
+        <p>As the pioneer in the testing and optimization space, no one has more experience optimizing a wide range of sites across industries than Autonomy. The company provides a suite of professional services to ensure that clients maximize their success. Autonomy's dedicated team of seasoned professionals can leverage best practices and planning strategies from thousands of tests conducted annually to ensure ongoing success.</p>
+    
+      </div>
+      
+      <div class="clear"></div>
+    </div>
+    <div class="clear"></div>
+  </div>
+</section>
+
+<div class="clear"><br /></div>
+
+<!--===========Social Media============-->    
+    <section>
+    	<div class="social-media wrapper">
+    <div class="icon-mid-line">
+        <div class="icon">
+            <a href="https://www.facebook.com/SmartTeamGlobalLlc"><img src="images/fb.png" /></a>
+            <a href="https://twitter.com/smartteamglb"><img src="images/twi.png" /></a>
+            <a href="https://www.youtube.com/channel/UCJvmjUWnPeOzvoHlKI-iJHQ"><img src="images/youtube.png" /></a>
+            <a href="#"><img src="images/insta.png" /></a>
+            <a href="#"><img src="images/chat.png" /></a>
+            <a href="http://weibo.com/smartteamglobal"><img src="images/gps.png" /></a>
+        </div>
+    <div class="clear"></div>
+    </div>
+</div>
+    </section>
+<!--========End============-->    
+
+    
+<!--===========Footer============-->    
+	 <footer>
+ 	<div class="twi-feed wrapper">
+    	<span>Latest Tweet:</span> 
+       <p><span>Jul 07, 2014 21:31:51</span> - Dahui Lawyers in Beijing, China, choose STG to implement the iManage WorkSite solutions...</p>
+      	<p><span>Jul 07, 2014 21:30:54</span> - City of Boston choose STG to perform the upgrades and migration for their HPPA System...</p>
+        <p><span>Jul 29, 2013 17:55:30</span> - E&J Gallo Winery chose STG to enhance its Contract Management Platform powered by HP Autonomy ECM Suite...</p>
+    </div>
+    <div class="foot-link wrapper">
+    	<ul>
+        	<li><a href="about.html">Company</a></li>
+            <li><a href="sol_newsroom.html">Solutions</a></li>
+            <li><a href="prd_smart_lib.html">Products</a></li>
+            <li><a href="customers.html">Customers</a></li>
+            <li><a href="partnership.html">Partnership</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="http://supportportal.smartteamglb.com">Support Portal</a></li>
+        </ul>
+        <div class="clear"></div>
+    </div>
+    <div class="copy wrapper"> © 2014 Smart Team Global. Use constitutes acceptance of General Website <a href="privacypolicy.html">Privacy Statement</a>
+            </div>
+ </footer>   
+
+<!--========End============-->    
+
+</body>
+</html>

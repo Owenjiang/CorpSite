@@ -1,0 +1,54 @@
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+/*	.section{ height:470px;}
+	.section .banner-text{height:470px;}
+	section .content-left{ max-width:90% !important; margin:0 auto; float:none;}
+	section .content-right{ display:none;}
+	section .content{ height:410px;}
+	.figure1{ height:410px;}
+	.figure1 .content-left1{ display:none;}
+	.figure1 .content-right1{max-width:90% !important; margin:0 auto; float:none;}
+	.figure2 .content2{height:410px;}
+	.figure2 .content-left2{max-width:90% !important; margin:0 auto; float:none; padding-top:80px;}
+	.figure2 .content-right2{ display:none;}
+	.figure3{height:410px;}
+	.figure3 .content3{height:410px;}
+	.figure3 .content-left3{max-width:90% !important; margin:0 auto; float:none; padding-top:80px;}
+	.figure3 .content-right3{ display:none;}
+	.figure4 .content4{height:450px;}
+	.figure4 .content-left4{max-width:90% !important; margin:0 auto; float:none; padding-top:80px;}
+	.figure4 .content-right4{ display:none;}
+	aside .logo{ width:72%; margin:0 auto;}
+	aside ul li{ width:150px;}
+	aside ul li img{ width:150px;}
+	.foot-link ul{ margin:0 0 0 130px;}*/
+	}
+	
+	/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+	/*section .content-left{width:45%; float:left; padding-left:20px;}
+	section .content-right{width:45%; float: right; margin-right:20px;}
+	section .content-right img{ width:100%}
+	
+	.figure1 .content-left1{width:45%; float:left; padding-left:20px;}
+	.figure1 .content-right1{width:45%; float: right; margin-right:20px;}
+	.figure1 .content-left1 img{ width:100%}
+	
+	.figure2 .content-left2{width:45%; float:left; padding-left:20px;}
+	.figure2 .content-right2{width:45%; float: right; margin-right:20px;}
+	.figure2 .content-right2 img{ width:100%}
+	.figure3 .content-left3{width:45%; float: right; margin-right:20px;}
+	.figure3 .content-right3{width:45%; float:left; padding-left:20px;}
+	.figure3 .content-right3 img{width:100%}
+	.figure4 .content-left4{width:45%; float:left; padding-left:20px; padding-top:0;}
+	.figure4 .content-right4{width:45%; float: right; margin-right:20px;}
+	.figure4 .content-right4 img{width:100%}
+	.foot-link ul{ margin:0 0 0 240px;}*/
+	
+	}

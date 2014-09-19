@@ -1,0 +1,353 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Smart Team Global</title>
+<link rel="shortcut icon" type="image/x-icon" href="favicon.png">
+<link rel="stylesheet" href="css/stylesheet.css">
+<link rel="stylesheet" href="css/responsive-inner.css">
+<!--<link rel="stylesheet" href="css/mobile.css">-->
+<link rel="stylesheet" href="css/ipad.css">
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:400,300,600" />
+
+
+  <!-----------------menu------------------->
+   <link rel="stylesheet" href="css/menu.css">
+   <script src="js/jquery-latest.min.js" type="text/javascript"></script>
+<script src="js/script.js"></script>
+<script src="http://chatserver.comm100.com/js/LiveChat.js?siteId=44205&planId=260" 
+type="text/javascript"></script>
+
+    <!-----------------menu end------------------->
+    <script src="js/classie.js"></script>
+<script>
+    function init() {
+        window.addEventListener('scroll', function(e){
+            var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+                shrinkOn = 50,
+                header = document.querySelector("header");
+            if (distanceY > shrinkOn) {
+                classie.add(header,"smaller");
+            } else {
+                if (classie.has(header,"smaller")) {
+                    classie.remove(header,"smaller");
+                }
+            }
+        });
+    }
+    window.onload = init();
+</script>
+        <script type="text/javascript" src="js/scrolltopcontrol.js"></script>
+        <script type='text/javascript' src='js/jquery.nicescroll.min.js'></script>
+    <script>
+  $(document).ready(function() {
+    var nicesx = $("#boxscroll").niceScroll({touchbehavior:false,cursorcolor:"#555",cursoropacitymax:0.8,cursorwidth:3});
+  });
+
+</script>
+
+<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport" />
+<link rel="stylesheet" type="text/css" href="css/animations.css" />
+
+</head>
+<body id="boxscroll">
+<!--------------------Header-------------------->
+<script>
+$(document).ready(function(){
+  $(".search-img").hover(function(){
+    $(".search-text").show();
+    $("#p").focus();
+  });
+
+  $("body").click(function(){$(".search-text").hide();});
+});
+</script>
+
+
+
+<header>
+
+<div style="border-top:solid 5px #dbdbdb;"></div>
+<div id="wrapper">
+    <div>
+      <div class="logo"><a href="index.html"><img src="images/logo.jpg" width="240" height="58" border="0" /></a></div>
+        <div class="fright">
+          <ul>
+            
+                <li>
+                  <a href="office.html" class="blue">Contact Us</a>
+                </li>
+                <li>
+                  <div class="search"><form action="http://www.yahoo.com.cn/search">
+                    <div class="search-text" style="display:none;"><input type="text" placeholder="Search" name="p" id="p"></div>
+                    <div class="search-img"><i><input type="image" src="images/icon_search20141.png" /></i></div>
+                    <input type="hidden" name="vs" value="www.smartteam.cn">
+                    <div class="clear"></div>
+                    </div>
+                </li>
+                <li style="margin-top:8px;">
+					<script>
+    
+	 
+	function languageswitch(){
+	 var  temp=document.getElementById("EN").innerHTML;
+	 document.getElementById("EN").innerHTML=document.getElementById("CN").innerHTML;
+	 document.getElementById("CN").innerHTML=temp;
+	 var hreftemp=document.getElementById("EN").getAttribute("href");
+	 document.getElementById("EN").setAttribute("href",document.getElementById("CN").getAttribute("href"));
+	 document.getElementById("CN").setAttribute("href",hreftemp);
+	}
+   
+</script>
+                  <div class="select">
+                      <a href="#" id="EN" class="globe">English</a>
+                        <div class="hide" onClick="languageswitch();return false;">
+                        <ul>
+                         <li><a href="#" id="CN">简体中文</a></li>
+                        </ul>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="clear"></div>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+
+
+<div class="clear"></div>
+<div class="nav">
+        <div id="wrapper">
+            <div id='cssmenu'>
+                <ul>
+                   <li class='has-sub'><a href='#'><span>Company</span></a>
+                      <ul>
+                         <li><a href='about.html'><span>About Us</span></a>
+                           
+                         </li>
+                         <li><a href="office.html"><span>Offices</span></a>
+                           
+                         </li>
+                         <li><a href='careers.html'><span>Careers</span></a></li>
+                      </ul>
+                   </li>
+                   <li class='has-sub'><a href='#'><span>Solutions</span></a>
+                   	<ul>
+							<li><a href='sol_newsroom.html'><span>Converged Newsroom</span></a></li>
+							<li><a href='sol_archive_preservation_ediscovery.html'><span>Archiving, Preservation & eDiscovery</span></a></li>
+							<li><a href='sol_security_surverillance.html'><span>Intelligent Security & Surveillance</span></a></li>
+							<li><a href='sol_document_records.html'><span>Legal Document & Records Management</span></a></li>
+							<li><a href='sol_healthcare.html'><span>Meaning Based Healthcare</span></a></li>
+							<li><a href='sol_search_knowledge.html'><span>Search & Knowledge Management</span></a></li>
+							<li><a href='sol_web_optimization.html'><span>Digital Marketing & Optimization</span></a></li>
+                    </ul>
+                   </li>
+                    <li class='has-sub'><a href='#'><span>Products</span></a>
+                    <ul>
+                        <li class=''><a href='prd_smart_lib.html'><span>SMARTLibrary</span></a>
+						<!--<ul>
+								<li><a href="#">Asian Language Package for Autonomy Teleform</a></li>
+                                <li><a href="#">Document Builders for APA</a></li>
+                                <li><a href="#">eFax Connector for APA</a></li>
+                                <li><a href="#">Exchange Connector for APA</a></li>
+                                <li><a href="#">Google Voice Portal</a></li>
+                                <li><a href="#">IDOL Indexer for APA</a></li>
+                                <li><a href="#">Portlets for Portal-In-A-Box</a></li>
+                                <li><a href="#">PDF Reader </a></li>
+                                <li><a href="#">SharePoint Export Connect Agent</a></li>
+                                <li><a href="#">Teleform Database Lookup</a></li>
+                                <li><a href="#">Teleform Oracle UCM Export Plug-in</a></li>
+                            </ul>-->
+
+                         </li>
+                    </ul>
+                    </li>
+                     <li class='has-sub'><a href='#'><span>Customers</span></a>
+                     	<ul>
+                            
+                            <li><a href="customers.html">Case Studies</a></li>
+                            <li><a href="http://my.alfresco.com" target="_blank">Customer Portal</a></li>
+                            <li><a href='http://supportportal.smartteamglb.com' target="_blank">Support Portal</a></li>
+                        </ul>
+
+                     </li>
+                      <li class='has-sub'><a href='partnership.html'><span>Partnership</span></a>
+                      	<ul>
+                            <li><a href="partnership.html">HP Autonomy</a></li>
+                             <li><a href="partnership.html#2">EidosMedia</a></li>
+                            <li><a href="partnership.html#3">Riverbed</a></li>
+                        </ul>
+
+                      </li>
+                       <li><a href='news.html'><span>News</span></a></li>
+                   
+                </ul>
+            </div>
+        </div>
+</div>
+</header>
+
+<!--------------------end-------------------->
+
+<section>
+  <div class="breadcrum wrapper"> <a href="#">Home</a> / <a href="#">Company</a> / <em>About Us</em> </div>
+  <div class="text-area1 wrapper">
+    <div class="col-1"> 
+      <h4>Company</h4>
+                <ul>
+                	<li><a href="about.html">About Us</a></li>
+					<li><a href="office.html">Offices</a></li>
+                  <li><a href="careers.html">Careers</a></li>
+                </ul>
+            
+
+      <div class="phone-box">
+      <h3><img src="images/ph-icone.png" width="17" height="22" />1.855.88.SMART</h3></div>
+      <div class="bl-box">
+        <h3><a href="mailto:web@smartteamglb.com" style="color:#fff;"><img src="images/email.png"  />Email Us</a></h3>
+      </div>
+      
+      <div class="sky-box">
+        <h3><a href="http://www.comm100.com/livechat" style="color:#fff;" onclick="comm100_Chat();return false;" target="_blank" title="Online Chat"><img src="images/chat1.png"  />Online Chat</a></h3>
+      </div>
+      <!--<div class="sky-box">
+     
+   <div style="height:30px; margin-top:-23px;" class="skype">
+        <script type="text/javascript" src="js/skype-uri.js"></script>
+<div id="SkypeButton_Call_linl.stg_1" >
+  <script type="text/javascript">
+    Skype.ui({
+      "name": "chat with us",
+      "element": "SkypeButton_Call_linl.stg_1",
+      "participants": ["linl.stg"],
+      "imageColor": "white",
+      "imageSize": 24
+    });
+  </script>
+</div>
+
+     
+     </div>
+   
+      </div>-->
+      <div class="bl-box2">
+        <a href="https://www.youtube.com/channel/UCJvmjUWnPeOzvoHlKI-iJHQ" target="_blank"><h3><img src="images/youtube1.png" > Smart Team  Channel</h3></a>
+      </div>
+    </div>
+    <div class="col-2">
+      <div class="fleft">
+	 
+        <h1>Privacy Policy Statement</h1>
+       
+       
+       
+        <p>The Privacy Policy Statement has been created in order to demonstrate our firm ability and continuing commitment to the privacy of personal information provided by those visiting and interacting with this web site. We hold the privacy of your personal information in the highest regard. The following discloses our information gathering and dissemination practices for this web site. We recognize the importance of protecting your privacy and our policy is designed to assist you in understanding how we collect, use and safeguard the personal information you provide to us and to assist you in making informed decisions when using our site. This policy will be continuously assessed against new technologies, business practices and our customers' needs.</p>
+		<h1>What Information Do We Collect?</h1>
+       
+        <p>When you visit this web site you may provide us with two types of information: personal information you knowingly choose to disclose that is collected on an individual basis and web site use information collected on an aggregate basis as you and others browse our web site. </p>
+        <p>1. Personal Information You Choose to Provide - If you choose to correspond with us through email, we may retain the content of your email messages together with your email address and our responses. We provide the same protections for these electronic communications that we employ in the maintenance of information received by mail and telephone. </p>
+        <p>2. Web Site Use Information - Similar to other commercial Web sites, our Web site utilizes a standard technology called "cookies" (see explanation below, "What Are Cookies?") and web server log files to collect information about how our Web site is used. Information gathered through cookies and Web server logs may include the date and time of visits, the pages viewed, time spent at our Web site, and the Web sites visited just before and just after our Web site. </p>
+		<h1>How Do We Use the Information That You Provide to Us? </h1>
+       
+       
+        <p>Broadly speaking, we use personal information for purposes of administering our business activities, providing the products and services you requested, processing payments, monitoring the use of the service, marketing and promotional efforts to improve our content and service offerings, customizing our site's content, layout, services, and for other lawful purposes. The uses improve our site and better tailor it to meet your needs. Furthermore, such information may be shared with others on an aggregate basis. Personally identifiable information or business information will not be shared with parties except as required by law. Occasionally, we may also use the information we collect to notify you about important changes to our web site, new services, and special offers we think you will find valuable. You may notify us at any time if you do not wish to receive these offers by emailing us at the link provided on the newsletter. </p>
+		<h1>What Are Cookies?</h1>
+       
+        <p>A cookie is a very small text document, which often includes an anonymous unique identifier. When you visit a Web site, that site's computer asks your computer for permission to store this file in a part of your hard drive specifically designated for cookies. Each Web site can send its own cookie to your browser if your browser's preferences allow it, but (to protect your privacy) your browser only permits a web site to access the cookies it has already sent to you, not the cookies sent to you by other sites. Browsers are usually set to accept cookies. However, if you would prefer not to receive cookies, you may alter the configuration of your browser to refuse cookies. If you choose to have your browser refuse cookies, it is possible that some areas of our site will not function as effectively when viewed by the users. A cookie cannot retrieve any other data from your hard drive or pass on computer viruses. </p>
+     
+		<h1>How Do We Use Information We Collect from Cookies?</h1>
+       
+        <p>As you visit and browse our web site, the site uses cookies to differentiate you from other users. In some cases, we also use cookies to prevent you from having to log in more than is necessary for security. Cookies, in conjunction with our Web server's log files, allow us to calculate the aggregate number of people visiting our web site and which parts of the site are most popular. This helps us gather feedback to constantly improve our web site and better serve our clients. Cookies do not allow us to gather any personal information about you and we do not intentionally store any personal information that your browser provided to us in your cookies. </p>
+     
+		<h1>IP Addresses</h1>
+       
+        <p>IP addresses are used by your computer every time you are connected to the Internet. Your IP address is a number that is used by computers on the network to identify your computer. IP addresses are automatically collected by our web server as part of demographic and profile data known as "traffic data" so that data (such as the Web pages you request) can be sent to you. </p>
+         
+		<h1>What About Legally Compelled Disclosure of Information?</h1>
+       
+        <p>We may disclose information when legally compelled to do so, in other words, when we, in good faith, believe that the law requires it or for the protection of our legal rights. We may also disclose account information when we have reason to believe that disclosing this information is necessary to identify, contact or bring legal action against someone who may be violating our Terms of Use or to protect the safety of our users and the public. </p>
+         
+		<h1>What About Other Web Sites Linked to Our Web Site? </h1>
+       
+        <p>We are not responsible for the practices employed by Web sites linked to or from our web site or the information or content contained therein. Often links to other web sites are provided solely as pointers to information on topics that may be useful to the users of our web site. Please remember that when you use a link to go from our web site to another web site, our Privacy Policy is no longer in effect. Your browsing and interaction on any other web site, including web sites, which have a link on our web site, is subject to that web site's own rules and policies. Please read over those rules and policies before proceeding.
+</p>
+       
+		<h1>Your Consent </h1>
+       
+        <p>By using our web site you consent to our collection and use of your personal information as described in this Privacy Policy. We reserve the right to amend this privacy policy at any time with or without notice.</p>
+       
+		<h1>Our Commitment To Data Security</h1>
+       
+        
+        <p>Please note that your information will be stored and processed on our computers in the United States. The laws on holding personal data in the United States may be less stringent than the laws of your Country of residence or citizenship. To prevent unauthorized access, maintain data accuracy, and ensure the correct use of information, we have put in place appropriate physical, electronic, and managerial procedures to safeguard and secure the information we collect online. </p>
+     
+		<h1>A Special Note About Children </h1>
+       
+        <p>Children are not eligible to use our services unsupervised and we ask that children (under the age of 14) do not submit any personal information to us. If you are a minor, you can use this service only in conjunction with permission and guidance from your parents or guardians.</p>
+    
+		<h1>Acquisition or Changes in Ownership</h1>
+       
+        <p>In the event that the web site (or a substantial portion of its assets) is acquired, your information would be considered part of those assets, and may be part of those assets that are transferred.</p>
+          
+		<h1>Policy Modifications</h1>
+       
+        <p>We may change this Privacy Policy from time to time. If and when changes are made to this privacy policy, we will email users who have given us permission to do so. We will post any changes here, so be sure to check back periodically. However, please be assured that if the Privacy Policy changes in the future, we will not use the personal information you have submitted to us under this Privacy Policy in a manner that is materially inconsistent with this Privacy Policy, without your prior consent.</p>
+          
+		
+      </div>
+      
+      <div class="clear"></div>
+    </div>
+    <div class="clear"></div>
+  </div>
+</section>
+
+<div class="clear"><br /></div>
+
+<!--===========Social Media============-->    
+    <section>
+    	<div class="social-media wrapper">
+    <div class="icon-mid-line">
+        <div class="icon">
+            <a href="https://www.facebook.com/SmartTeamGlobalLlc"><img src="images/fb.png" /></a>
+            <a href="https://twitter.com/smartteamglb"><img src="images/twi.png" /></a>
+            <a href="https://www.youtube.com/channel/UCJvmjUWnPeOzvoHlKI-iJHQ"><img src="images/youtube.png" /></a>
+            <a href="#"><img src="images/insta.png" /></a>
+            <a href="#"><img src="images/chat.png" /></a>
+            <a href="http://weibo.com/smartteamglobal"><img src="images/gps.png" /></a>
+        </div>
+    <div class="clear"></div>
+    </div>
+</div>
+    </section>
+<!--========End============-->    
+
+    
+<!--===========Footer============-->    
+	 <footer>
+ 	<div class="twi-feed wrapper">
+    	<span>Latest Tweet:</span> 
+       <p><span>Jul 07, 2014 21:31:51</span> - Dahui Lawyers in Beijing, China, choose STG to implement the iManage WorkSite solutions...</p>
+      	<p><span>Jul 07, 2014 21:30:54</span> - City of Boston choose STG to perform the upgrades and migration for their HPPA System...</p>
+        <p><span>Jul 29, 2013 17:55:30</span> - E&J Gallo Winery chose STG to enhance its Contract Management Platform powered by HP Autonomy ECM Suite...</p>
+    </div>
+    <div class="foot-link wrapper">
+    	<ul>
+        	<li><a href="about.html">Company</a></li>
+            <li><a href="sol_newsroom.html">Solutions</a></li>
+            <li><a href="prd_smart_lib.html">Products</a></li>
+            <li><a href="customers.html">Customers</a></li>
+            <li><a href="partnership.html">Partnership</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="http://supportportal.smartteamglb.com">Support Portal</a></li>
+        </ul>
+        <div class="clear"></div>
+    </div>
+    <div class="copy wrapper"> © 2014 Smart Team Global. Use constitutes acceptance of General Website  <a href="privacypolicy.html">Privacy Statement</a>
+            </div>
+ </footer>   
+
+<!--========End============-->    
+
+</body>
+</html>

@@ -1,0 +1,350 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Smart Team Global</title>
+<link rel="shortcut icon" type="image/x-icon" href="favicon.png">
+<link rel="stylesheet" href="css/stylesheet.css">
+<link rel="stylesheet" href="css/responsive-inner.css">
+
+<link rel="stylesheet" href="css/ipad.css">
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:400,300,600" />
+
+
+  <!-----------------menu------------------->
+   <link rel="stylesheet" href="css/menu.css">
+   <script src="js/jquery-latest.min.js" type="text/javascript"></script>
+<script src="js/script.js"></script>
+    <!-----------------menu end------------------->
+	<script src="http://chatserver.comm100.com/js/LiveChat.js?siteId=44205&planId=260" 
+type="text/javascript"></script>
+    <script src="js/classie.js"></script>
+<script>
+    function init() {
+        window.addEventListener('scroll', function(e){
+            var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+                shrinkOn = 50,
+                header = document.querySelector("header");
+            if (distanceY > shrinkOn) {
+                classie.add(header,"smaller");
+            } else {
+                if (classie.has(header,"smaller")) {
+                    classie.remove(header,"smaller");
+                }
+            }
+        });
+    }
+    window.onload = init();
+</script>
+        <script type="text/javascript" src="js/scrolltopcontrol.js"></script>
+        <script type='text/javascript' src='js/jquery.nicescroll.min.js'></script>
+    <script>
+  $(document).ready(function() {
+    var nicesx = $("#boxscroll").niceScroll({touchbehavior:false,cursorcolor:"#555",cursoropacitymax:0.8,cursorwidth:3});
+  });
+
+</script>
+
+<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport" />
+<link rel="stylesheet" type="text/css" href="css/animations.css" />
+
+</head>
+<body id="boxscroll">
+<!--------------------Header-------------------->
+<script>
+$(document).ready(function(){
+  $(".search-img").hover(function(){
+    $(".search-text").show();
+    $("#search_text").focus();
+  });
+
+  $("body").click(function(){$(".search-text").hide();});
+});
+</script>
+
+
+
+<header>
+
+<div style="border-top:solid 5px #dbdbdb;"></div>
+<div id="wrapper">
+    <div>
+      <div class="logo"><a href="index.html"><img src="images/logo.jpg" width="240" height="58" border="0" /></a></div>
+        <div class="fright">
+          <ul>
+            
+                <li>
+                  <a href="office.html" class="blue">Contact Us</a>
+                </li>
+                <li>
+                  <div class="search"><form action="http://www.yahoo.com.cn/search">
+                    <div class="search-text" style="display:none;"><input type="text" placeholder="Search" name="p" id="search_text"></div>
+                    <div class="search-img"><i><input type="image" src="images/icon_search20141.png" /></i></div>
+                    <input type="hidden" name="vs" value="www.smartteam.cn">
+                    <div class="clear"></div>
+                    </div>
+                </li>
+				<script>
+    
+	 
+	function languageswitch(){
+	 var  temp=document.getElementById("EN").innerHTML;
+	 document.getElementById("EN").innerHTML=document.getElementById("CN").innerHTML;
+	 document.getElementById("CN").innerHTML=temp;
+	 var hreftemp=document.getElementById("EN").getAttribute("href");
+	 document.getElementById("EN").setAttribute("href",document.getElementById("CN").getAttribute("href"));
+	 document.getElementById("CN").setAttribute("href",hreftemp);
+	}
+   
+</script>
+                <li style="margin-top:8px;">
+                  <div class="select">
+                      <a href="#" id="EN"class="globe">English</a>
+                        <div class="hide" onClick="languageswitch();return false;">
+                        <ul>
+                          <li><a href="#" id="CN">简体中文</a></li>
+                        </ul>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="clear"></div>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+
+
+
+<div class="clear"></div>
+<div class="nav">
+        <div id="wrapper">
+            <div id='cssmenu'>
+                <ul>
+                   <li class='has-sub'><a href='#'><span>Company</span></a>
+                      <ul>
+                         <li><a href='about.html'><span>About Us</span></a>
+                           
+                         </li>
+                         <li><a href="office.html"><span>Offices</span></a>
+                           
+                         </li>
+                         <li><a href='careers.html'><span>Careers</span></a></li>
+                      </ul>
+                   </li>
+                   <li class='has-sub'><a href='#'><span>Solutions</span></a>
+                   	<ul>
+                         <li><a href='sol_newsroom.html'><span>Converged Newsroom</span></a></li>
+						<li><a href='sol_archive_preservation_ediscovery.html'><span>Archiving, Preservation & eDiscovery</span></a></li>
+                         <li><a href='sol_security_surverillance.html'><span>Intelligent Security & Surveillance</span></a></li>
+                         <li><a href='sol_document_records.html'><span>Legal Document & Records Management</span></a></li>
+                         <li><a href='sol_healthcare.html'><span>Meaning Based Healthcare</span></a></li>
+                         <li><a href='sol_search_knowledge.html'><span>Search & Knowledge Management</span></a></li>
+                         <li><a href='sol_web_optimization.html'><span>Digital Marketing & Optimization</span></a></li>
+                    </ul>
+                   </li>
+                    <li class='has-sub'><a href='#'><span>Products</span></a>
+                    	<ul>
+							<li class=''><a href='prd_smart_lib.html'><span>SMARTLibrary</span></a>
+							<!--<ul>
+									<li><a href="#">Asian Language Package for Autonomy Teleform</a></li>
+									<li><a href="#">Document Builders for APA</a></li>
+									<li><a href="#">eFax Connector for APA</a></li>
+									<li><a href="#">Exchange Connector for APA</a></li>
+									<li><a href="#">Google Voice Portal</a></li>
+									<li><a href="#">IDOL Indexer for APA</a></li>
+									<li><a href="#">Portlets for Portal-In-A-Box</a></li>
+									<li><a href="#">PDF Reader </a></li>
+									<li><a href="#">SharePoint Export Connect Agent</a></li>
+									<li><a href="#">Teleform Database Lookup</a></li>
+									<li><a href="#">Teleform Oracle UCM Export Plug-in</a></li>
+								</ul>-->
+
+							</li>
+						</ul>
+                    </li>
+                     <li class='has-sub'><a href='#'><span>Customers</span></a>
+                     	<ul>
+                            
+                            <li><a href="customers.html">Case Studies</a></li>
+                            <li><a href="http://my.alfresco.com" target="_blank">Customer Portal</a></li>
+                            <li><a href='http://supportportal.smartteamglb.com' target="_blank">Support Portal</a></li>
+                        </ul>
+
+                     </li>
+                      <li class='has-sub'><a href='partnership.html'><span>Partnership</span></a>
+                      	<ul>
+                            <li><a href="partnership.html">HP Autonomy</a></li>
+                             <li><a href="partnership.html#2">EidosMedia</a></li>
+                            <li><a href="partnership.html#3">Riverbed</a></li>
+                        </ul>
+
+                      </li>
+                       <li><a href='news.html'><span>News</span></a></li>
+                   
+                </ul>
+            </div>
+        </div>
+</div>
+</header>
+
+<!--------------------end-------------------->
+
+<section>
+  <div class="breadcrum wrapper"> <a href="#">Home</a> / <a href="#">Company</a> / <em>About Us</em> </div>
+  <div class="text-area1 wrapper">
+    <div class="col-1"> 
+       <h4>Solutions</h4>
+                <ul>
+                	<li><a href="sol_newsroom.html">Converged Newsroom</a></li>
+                   
+                    <li><a href="sol_archive_preservation_ediscovery.html">Archiving, Preservation & eDiscovery</a></li>
+                    <li><a href="sol_security_surverillance.html">Intelligent Security & Surveillance</a></li>
+					<li><a href="sol_document_records.html">Legal Document & Records Management</a></li>
+                   
+                    <li><a href="sol_healthcare.html">Meaning Based Healthcare</a></li>
+                    <li><a href="sol_search_knowledge.html">Search & Knowledge Management</a></li>
+					<li><a href="sol_web_optimization.html">Digital Marketing & Optimization</a></li>
+                </ul>
+
+      
+      <div class="phone-box">
+        <h3><img src="images/ph-icone.png" width="17" height="22" />1.855.88.SMART</h3>
+      </div>
+      <div class="bl-box">
+        <h3><a href="mailto:web@smartteamglb.com" style="color:#fff;"><img src="images/email.png"  />Email Us</a></h3>
+      </div>
+      
+      <div class="sky-box">
+        <h3><a href="http://www.comm100.com/livechat" onclick="comm100_Chat();return false;" target="_blank" title="Online Chat"style="color:#fff;"><img src="images/chat1.png"  />Online Chat</a></h3>
+      </div>
+      <!--<div class="sky-box">
+     
+   <div style="height:30px; margin-top:-23px;" class="skype">
+        <script type="text/javascript" src="js/skype-uri.js"></script>
+<div id="SkypeButton_Call_linl.stg_1" >
+  <script type="text/javascript">
+    Skype.ui({
+      "name": "chat with us",
+      "element": "SkypeButton_Call_linl.stg_1",
+      "participants": ["linl.stg"],
+      "imageColor": "white",
+      "imageSize": 24
+    });
+  </script>
+</div>
+
+     
+     </div>
+   
+      </div>-->
+      <div class="bl-box2">
+        <a href="https://www.youtube.com/watch?v=RvXZHgeb3fc"><h3><img src="images/youtube1.png" > Smart Team  Channel</h3></a>
+      </div>
+    </div>
+    <div class="col-2">
+      <div class="fleft">
+       <h1>Converged Newsroom</h1>
+        <p> Today’s news organization has been transformed into a TRUE multi-channel, multi-media publishing firm that creates content in various digital format include but not limited to Paper/Web/Mobile/Tablet/TV/Social Media… New publishing platform is produced every day, it is impossible to predict what types of media will be born tomorrow. Smart Team Global has adopted the most advanced technology from the industry leading software firms, EdiosMedia &amp; Autonomy, integrating different products together to present you the TRUE Converged Newsroom Solution. <br>
+          <br>
+          The solution is fully open XML standard, ready for any new standards in the future. Its core philosophy that enables all of this: separation of presentation from content. </p>
+        <h1>The Backbone</h1>
+        <p> The backbone of the platform is Méthode, an innovative environment for Knowledge/Content Management and Cross-Media Publishing. It offers a single transparent workspace to content creation teams within Communication and Media groups, and provides access to all corporate content through a unique interface: production / live content, archives, wire texts and wire images, etc. Méthode does this by combining the key features of several different applications into one, single system: <br>
+          <br>
+        <ul>
+          <li>From enterprise-level knowledge-management systems it has incorporated powerful capabilities to classify, search and retrieve rich media content from multiple locations. </li>
+          <li>From vertically integrated editorial systems, it has adopted complex workflow coordination allowing content teams to work together transparently at diverse locations with full editorial control. </li>
+          <li>A powerful news management module extends the editorial workflow model to include coverage planning and allocation of resources to topics and events. </li>
+          <li>It has drawn on the versatility and power of XML-based publishing systems, while adding a new dimension of user-friendliness and visual feedback. </li>
+          <li>It has added print pagination capabilities, combining the sophistication of dedicated pagination tools with the openness and flexibility of Web technologies.</li>
+          <li>The XML-based pagination environment includes powerful planning &amp; tracking features, allowing complex, multiple-edition print publications to be designed and managed with ease.</li>
+          <li>Finally it has delivered genuine cross-channel publishing capability through a highly versatile architecture capable of feeding tailored content to a wide range of publishing channels from Web servers to print systems. </li>
+        </ul>
+        <p>The result is a highly flexible environment, extensively configurable to match the working practices of virtually any knowledge creation and publishing environment. The ease with which knowledge resources can be automatically re-packaged and repurposed for delivery to a variety of customers through diverse distribution channels maximizes the value of those resources to the organization, freeing staff to concentrate on the needs of their audiences and the content of the delivery. <br>
+        </p>
+        <br>
+        <p>The solution also provides the following unique features that makes it the best solution for news organizations. <br>
+        </p>
+        <br>
+        <ul>
+          <li>Open, standard web technologies applied to all channels, content separate from design &ndash; this is applied throughout the product. No proprietary, locked-in (and always-changing!) formats. </li>
+          <li>Multichannel, multimedia real-time collaboration: avoid wasted time and inefficient processes </li>
+          <li>Push alerts &amp; instant updates, live alerting content and approval workflows </li>
+          <li>WYSIWYG across all-channels, including simultaneous concurrent multi-channel publishing </li>
+        </ul>
+        <p style="text-align:center;"><img style="width:500px; height:330px;" alt="methode_xml_workflow" src="images/methode_xml_workflow.jpg"></p>
+        </p>
+        <h1>The Web Content Management</h1>
+        <p>
+        <p><b>Méthode Portal Server</b> is a sister product of standard Méthode Server, it is deployed as the runtime of the Méthode server, providing content caching and User Generated Content modules, like user registration, blog &amp; forum. As a plug &amp; play module for EdisosMedia Méthode platform, it has been proven a light weight and easy to adopt solution for standard news organizations that does not present complicated presentation and web optimization.</p>
+        <p>&nbsp;</p>
+        <p><b>Autonomy TeamSite/OpenDeploy/LiveSite</b> is one of the most popular Enterprise Web Content Management solution in the market today. A lot of world famous enterprises and government agencies have adopted it as their key component in its infrastructure. Its powerful, design for Enterprise framework “just works” against massive quantity and types of content, both structured and un-structured.  As the key component of the Meaning Based Marketing sector of Autonomy, its core Autonomy IDOL enterprise search engine provides the understanding of the content and supports multiple key functions: web optimization, content targeting, user profiling, etc.</p>
+        </p>
+        <h1> The Rich Media Management</h1>
+        <p>
+        <p>Most global news organizations today present their content in Newspaper, Website, Mobile, Tablet and TV. Video becomes more and more popular in today’s news world. As the dominant player in Rich Media Management domain, Autonomy Virage provides a full set of technologies to resolve the following most complicated challenges to the News Enterprises.</p>
+        <p>&nbsp;</p>
+        <ul>
+          <li>auto metadata tagging &ndash; Autonomy’s leading technologies include Face Recognition,  OCR, Speech2Text, Image Relevancy Detection tags videos frame by frame in real time during content ingestion.</li>
+          <li>meaning based analysis &ndash; Autonomy’s IDOL understands what the content means and generates taxonomy and clusters content automatically.</li>
+          <li>scalability and performance -  Autonomy IDOL has been approved its scalability and outstanding performance over massive structured &amp; un-structured content. It makes the content not only be stored but also be quickly located and retrieved in seconds.</li>
+        </ul>
+        </p>
+        <h1>The Solution</h1>
+        <p> As the only solution provider that understands both Autonomy &amp; EdiosMedia technologies, Smart Team Global has presented this solution to the News Organization worldwide and received positive feedbacks. Its transparent open XML standards makes the implementation much easier and reduce significant customizations compared to other old timers still in play. We believe technology is the key driver in the news media industry and this solution is the future. </p>
+      </div>
+      
+      <div class="clear"></div>
+    </div>
+    <div class="clear"></div>
+  </div>
+</section>
+
+<div class="clear"><br /></div>
+
+<!--===========Social Media============-->    
+    <section>
+    	<div class="social-media wrapper">
+    <div class="icon-mid-line">
+        <div class="icon">
+            <a href="https://www.facebook.com/SmartTeamGlobalLlc"><img src="images/fb.png" /></a>
+            <a href="https://twitter.com/smartteamglb"><img src="images/twi.png" /></a>
+            <a href="https://www.youtube.com/channel/UCJvmjUWnPeOzvoHlKI-iJHQ"><img src="images/youtube.png" /></a>
+            <a href="#"><img src="images/insta.png" /></a>
+            <a href="#"><img src="images/chat.png" /></a>
+            <a href="http://weibo.com/smartteamglobal"><img src="images/gps.png" /></a>
+        </div>
+    <div class="clear"></div>
+    </div>
+</div>
+    </section>
+<!--========End============-->    
+
+    
+<!--===========Footer============-->    
+	 <footer>
+ 	<div class="twi-feed wrapper">
+    	<span>Latest Tweet:</span> 
+       <p><span>Jul 07, 2014 21:31:51</span> - Dahui Lawyers in Beijing, China, choose STG to implement the iManage WorkSite solutions...</p>
+      	<p><span>Jul 07, 2014 21:30:54</span> - City of Boston choose STG to perform the upgrades and migration for their HPPA System...</p>
+        <p><span>Jul 29, 2013 17:55:30</span> - E&J Gallo Winery chose STG to enhance its Contract Management Platform powered by HP Autonomy ECM Suite...</p>
+    </div>
+    <div class="foot-link wrapper">
+    	<ul>
+        	<li><a href="about.html">Company</a></li>
+            <li><a href="sol_newsroom.html">Solutions</a></li>
+            <li><a href="prd_smart_lib.html">Products</a></li>
+            <li><a href="customers.html">Customers</a></li>
+            <li><a href="partnership.html">Partnership</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="http://supportportal.smartteamglb.com">Support Portal</a></li>
+        </ul>
+        <div class="clear"></div>
+    </div>
+    <div class="copy wrapper"> © 2014 Smart Team Global. Use constitutes acceptance of General Website  <a href="privacypolicy.html">Privacy Statement</a>
+            </div>
+ </footer>   
+
+<!--========End============-->    
+
+</body>
+</html>

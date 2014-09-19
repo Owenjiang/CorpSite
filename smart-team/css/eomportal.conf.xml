@@ -1,0 +1,140 @@
+<!DOCTYPE EOMVAR SYSTEM "file:///methode/meth01/cfg/eomvar.dtd">
+<PortalConfig>
+    <Administrator>
+        <Password>syshtmpwd</Password>
+    </Administrator>
+    <Log>
+        <Level>DEBUG</Level> <!-- Value can be: ERROR, WARN, INFO, DEBUG, TRACE. -->
+        <Filter>false</Filter>
+        <Layout>%d{HH:mm:ss,SSS} [%t] %-5p %c%n %m%n</Layout>
+        <LogToConsole>false</LogToConsole>
+        <LogToFile>true</LogToFile>
+        <Filename>eomportal.log</Filename>
+        <MaxFileSize>3000000</MaxFileSize>
+        <MaxFileCount>3</MaxFileCount>
+		<BaseFolder>&EOMPORTALLOGDIR;/${siteRoot}</BaseFolder> <!-- In this way each site has its own log folder -->
+		<!-- <BaseFolder>&EOMPORTALLOGDIR;/${siteRoot}</BaseFolder> -->
+        <!-- All following file names are relative to the above specified BaseFolder -->
+        <Filename>eomportal.log</Filename>
+        <ContentsLogFilename>eomportal.contents.log</ContentsLogFilename>
+        <ProducersLogFilename>eomportal.producers.log</ProducersLogFilename>
+        <EventsLogFilename>eomportal.events.log</EventsLogFilename>
+        <UserQueryLogFilename>eomportal.userquery.log</UserQueryLogFilename>
+
+    </Log>
+
+    <DebugMode>true</DebugMode>
+    <Preload>false</Preload>
+    <EOMCacheConfigurationPath>eomcache.conf.xml</EOMCacheConfigurationPath>
+ 
+    <BasePortalURI>/ChinaDaily/Production/ChinaDaily.com.cn</BasePortalURI>
+    <BaseConfigurationURI>/SysConfig/WebPortal</BaseConfigurationURI><!--/ChinaDaily.com.cn-->
+    <BaseSiteConfigurationURI>/Sites</BaseSiteConfigurationURI>
+ 
+    <ContentGarbaging>
+        <ContentDestroyerTimeout>10000</ContentDestroyerTimeout>
+        <FreeContentLiveTime>600000</FreeContentLiveTime>
+        <RootDestroyerTimeout>10000</RootDestroyerTimeout>
+        <RootMinLiveTime>3600000</RootMinLiveTime>
+        <StartViewRating>50</StartViewRating>
+        <UpSmoothing>1</UpSmoothing>
+        <DownSmoothing>8</DownSmoothing>
+        <GarbageViewRating>1</GarbageViewRating>
+    </ContentGarbaging>
+    
+    <Statistics>
+        <Enable>false</Enable>
+        <LockSafe>true</LockSafe>
+        <Timeout>60000</Timeout>
+        <Folder>&DATADIR;/in_out/MethodePortalStats</Folder>
+        <TempExtension>tmp</TempExtension>
+        <StatsExtension>stats</StatsExtension>
+        <CounterConfigurationFile/>
+    </Statistics>
+	
+	<!-- Enable RestAPI -->
+    <RestAPI>
+        <Enable>true</Enable>
+    </RestAPI>	
+	
+	 <Service class="com.eidosmedia.portal.redirection.RewriteUrlService">
+        <Config onError="notload" url="eomcache:/SysConfig/WebPortal/ChinaDaily.com.cn/Framework/.config/urls.xml" />
+    </Service>
+  
+	  
+	 <!--  <CustomUrlResolver class="com.eidosmedia.portal.context.UrlResolver"></CustomUrlResolver>-->
+  
+	 <CustomUrlResolver class="com.smartteamglb.methode.url.CustomUrlResolver4CNDY" > 
+		
+	   <Section xpath="/dbMetadata/ObjectMetadata/OnlineProducts/OnlineProduct/Sections/Section/SectionName" />
+	   <Section xpath="/dbMetadata/ObjectMetadata/OnlineProducts/OnlineProduct/Sections/Section/SectionPath" />
+	   <Story prefix="content_" extension=".htm"/>
+	   <PartNumber value="true"/>
+	  </CustomUrlResolver> 
+  
+
+
+	<!--
+	Commented - BB - 2013.04.16
+    <CountersConfiguration>$baseConfigurationURI/conf/counters.xml</CountersConfiguration>
+ 
+    <Mailing>
+        <SmtpServer></SmtpServer>
+        <FloodingTimeout>2000</FloodingTimeout>
+        <SendStoryTemplate>eomcache:$baseConfigurationURI/conf/sendstory.tpl</SendStoryTemplate>
+    </Mailing>
+    
+    <Directory>
+        <Config>
+            <serviceUrl>http://&SERVER_TC;:&TOMCAT_PORTAL_PORT;/Externals/services/DirectoryService</serviceUrl>
+            <signOnUrl>http://&SERVER_TC;:&TOMCAT_PORTAL_PORT;/Externals/sso</signOnUrl>
+            <servletUrl>http://&SERVER_TC;:&TOMCAT_PORTAL_PORT;/Externals/servlet/directory/</servletUrl>
+        </Config>
+    </Directory>
+	-->
+    
+    <!-- 
+    <Service class="com.eidosmedia.myuploads.MyUploadsService">
+        <Config url="eomcache:$baseConfigurationURI/myuploads/conf.xml"/>
+        <Config>
+            <tmpUploadFolder>&HOME;/mnt/data/in_out/MethodePortalMyUploadsTmp</tmpUploadFolder>
+            <checkFile>true</checkFile>
+            <checkScript></checkScript>
+        </Config>
+    </Service>
+    
+    <Service class="com.eidosmedia.portal.validation.ValidationService">
+        <Config>
+            <validators>$baseConfigurationURI/conf/validators.xml</validators>
+        </Config>
+    </Service>
+    
+	
+    <Service class="com.eidosmedia.portal.flooding.FloodingService">
+        <Config>
+            <gcPeriod>600000</gcPeriod>
+            <ipLimit>10</ipLimit>
+            <ipInterval>5000</ipInterval>
+            <urlLimit>5</urlLimit>
+            <urlInterval>5000</urlInterval>
+            <userIdLimit>5</userIdLimit>
+            <userIdInterval>5000</userIdInterval>
+            <accessTableEntryLimit>100</accessTableEntryLimit>
+            <accessTableSize>1000</accessTableSize>
+            <floodCheckers>$baseConfigurationURI/conf/floodingCheckers.xml</floodCheckers>
+        </Config>
+    </Service>
+      
+    <Service class="com.eidosmedia.portal.device.DeviceService">
+        <Config>
+            <wurflDataPath>&EOMPORTALBASE;/wurfl/wurfl.xml</wurflDataPath>
+        </Config>
+    </Service> 
+
+    
+    <Service class="com.eidosmedia.portal.redirection.RewriteUrlService">
+        <Config onError="notload" url="eomcache:$siteRoot/rewriteurls.xml" />
+    </Service>-->
+     
+    
+</PortalConfig>

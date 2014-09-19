@@ -1,0 +1,359 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Smart Team Global</title>
+<link rel="shortcut icon" type="image/x-icon" href="favicon.png">
+<link rel="stylesheet" href="css/stylesheet.css">
+<link rel="stylesheet" href="css/responsive-inner.css">
+
+<link rel="stylesheet" href="css/ipad.css">
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:400,300,600" />
+
+
+  <!-----------------menu------------------->
+   <link rel="stylesheet" href="css/menu.css">
+   <script src="js/jquery-latest.min.js" type="text/javascript"></script>
+<script src="js/script.js"></script>
+    <!-----------------menu end------------------->
+	<script src="http://chatserver.comm100.com/js/LiveChat.js?siteId=44205&planId=260" 
+type="text/javascript"></script>
+    <script src="js/classie.js"></script>
+<script>
+    function init() {
+        window.addEventListener('scroll', function(e){
+            var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+                shrinkOn = 50,
+                header = document.querySelector("header");
+            if (distanceY > shrinkOn) {
+                classie.add(header,"smaller");
+            } else {
+                if (classie.has(header,"smaller")) {
+                    classie.remove(header,"smaller");
+                }
+            }
+        });
+    }
+    window.onload = init();
+</script>
+        <script type="text/javascript" src="js/scrolltopcontrol.js"></script>
+        <script type='text/javascript' src='js/jquery.nicescroll.min.js'></script>
+    <script>
+  $(document).ready(function() {
+    var nicesx = $("#boxscroll").niceScroll({touchbehavior:false,cursorcolor:"#555",cursoropacitymax:0.8,cursorwidth:3});
+  });
+
+</script>
+
+<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport" />
+<link rel="stylesheet" type="text/css" href="css/animations.css" />
+
+</head>
+<body id="boxscroll">
+<!--------------------Header-------------------->
+<script>
+$(document).ready(function(){
+  $(".search-img").hover(function(){
+    $(".search-text").show();
+    $("#search_text").focus();
+  });
+
+  $("body").click(function(){$(".search-text").hide();});
+});
+</script>
+
+
+
+<header>
+
+<div style="border-top:solid 5px #dbdbdb;"></div>
+<div id="wrapper">
+    <div>
+      <div class="logo"><a href="index.html"><img src="images/logo.jpg" width="240" height="58" border="0" /></a></div>
+        <div class="fright">
+          <ul>
+            
+                <li>
+                  <a href="office.html" class="blue">Contact Us</a>
+                </li>
+                <li>
+                  <div class="search"><form action="http://www.yahoo.com.cn/search">
+                    <div class="search-text" style="display:none;"><input type="text" placeholder="Search" name="p" id="search_text"></div>
+                    <div class="search-img"><i><input type="image" src="images/icon_search20141.png" /></i></div>
+                    <input type="hidden" name="vs" value="www.smartteam.cn">
+                    <div class="clear"></div>
+                    </div>
+                </li>
+				<script>
+    
+	 
+	function languageswitch(){
+	 var  temp=document.getElementById("EN").innerHTML;
+	 document.getElementById("EN").innerHTML=document.getElementById("CN").innerHTML;
+	 document.getElementById("CN").innerHTML=temp;
+	 var hreftemp=document.getElementById("EN").getAttribute("href");
+	 document.getElementById("EN").setAttribute("href",document.getElementById("CN").getAttribute("href"));
+	 document.getElementById("CN").setAttribute("href",hreftemp);
+	}
+   
+</script>
+                <li style="margin-top:8px;">
+                  <div class="select">
+                      <a href="#"  id="EN" class="globe">English</a>
+                        <div class="hide" onClick="languageswitch();return false;">
+                        <ul>
+                           <li><a href="#" id="CN">简体中文</a></li>
+                        </ul>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="clear"></div>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+
+
+
+<div class="clear"></div>
+<div class="nav">
+        <div id="wrapper">
+            <div id='cssmenu'>
+                <ul>
+                   <li class='has-sub'><a href='#'><span>Company</span></a>
+                      <ul>
+                         <li><a href='about.html'><span>About Us</span></a>
+                           
+                         </li>
+                         <li><a href="office.html"><span>Offices</span></a>
+                           
+                         </li>
+                         <li><a href='careers.html'><span>Careers</span></a></li>
+                      </ul>
+                   </li>
+                   <li class='has-sub'><a href='#'><span>Solutions</span></a>
+                   	<ul>
+                         <li><a href='sol_newsroom.html'><span>Converged Newsroom</span></a></li>
+                       <li><a href='sol_archive_preservation_ediscovery.html'><span>Archiving, Preservation & eDiscovery</span></a></li>
+                         <li><a href='sol_security_surverillance.html'><span>Intelligent Security & Surveillance</span></a></li>
+                         <li><a href='sol_document_records.html'><span>Legal Document & Records Management</span></a></li>
+                         <li><a href='sol_healthcare.html'><span>Meaning Based Healthcare</span></a></li>
+                         <li><a href='sol_search_knowledge.html'><span>Search & Knowledge Management</span></a></li>
+                         <li><a href='sol_web_optimization.html'><span>Digital Marketing & Optimization</span></a></li>
+                    </ul>
+                   </li>
+                    <li class='has-sub'><a href='#'><span>Products</span></a>
+                    	<ul>
+							<li class=''><a href='prd_smart_lib.html'><span>SMARTLibrary</span></a>
+							<!--<ul>
+									<li><a href="#">Asian Language Package for Autonomy Teleform</a></li>
+									<li><a href="#">Document Builders for APA</a></li>
+									<li><a href="#">eFax Connector for APA</a></li>
+									<li><a href="#">Exchange Connector for APA</a></li>
+									<li><a href="#">Google Voice Portal</a></li>
+									<li><a href="#">IDOL Indexer for APA</a></li>
+									<li><a href="#">Portlets for Portal-In-A-Box</a></li>
+									<li><a href="#">PDF Reader </a></li>
+									<li><a href="#">SharePoint Export Connect Agent</a></li>
+									<li><a href="#">Teleform Database Lookup</a></li>
+									<li><a href="#">Teleform Oracle UCM Export Plug-in</a></li>
+								</ul>-->
+
+							</li>
+						</ul>
+                    </li>
+                     <li class='has-sub'><a href='#'><span>Customers</span></a>
+                     	<ul>
+                           
+                            <li><a href="customers.html">Case Studies</a></li>
+                            <li><a href="http://my.alfresco.com" target="_blank">Customer Portal</a></li>
+                            <li><a href='http://supportportal.smartteamglb.com' target="_blank">Support Portal</a></li>
+                        </ul>
+
+                     </li>
+                      <li class='has-sub'><a href='partnership.html'><span>Partnership</span></a>
+                      	<ul>
+                            <li><a href="partnership.html">HP Autonomy</a></li>
+                             <li><a href="partnership.html#2">EidosMedia</a></li>
+                            <li><a href="partnership.html#3">Riverbed</a></li>
+                        </ul>
+
+                      </li>
+                       <li><a href='news.html'><span>News</span></a></li>
+                 
+                </ul>
+            </div>
+        </div>
+</div>
+</header>
+
+<!--------------------end-------------------->
+
+<section>
+  <div class="breadcrum wrapper"> <a href="#">Home</a> / <a href="#">Company</a> / <em>About Us</em> </div>
+  <div class="text-area1 wrapper">
+    <div class="col-1"> 
+      <h4>Solutions</h4>
+                <ul>
+                	<li><a href="sol_newsroom.html">Converged Newsroom</a></li>
+                   
+                    <li><a href="sol_archive_preservation_ediscovery.html">Archiving, Preservation & eDiscovery</a></li>
+                    <li><a href="sol_security_surverillance.html">Intelligent Security & Surveillance</a></li>
+					<li><a href="sol_document_records.html">Legal Document & Records Management</a></li>
+                   
+                    <li><a href="sol_healthcare.html">Meaning Based Healthcare</a></li>
+                    <li><a href="sol_search_knowledge.html">Search & Knowledge Management</a></li>
+					<li><a href="sol_web_optimization.html">Digital Marketing & Optimization</a></li>
+                </ul>
+      
+      <div class="phone-box">
+        <h3><img src="images/ph-icone.png" width="17" height="22" />1.855.88.SMART</h3>
+      </div>
+
+      <div class="bl-box">
+        <h3><a href="mailto:web@smartteamglb.com" style="color:#fff;"><img src="images/email.png"  />Email Us</a></h3>
+      </div>
+      
+      <div class="sky-box">
+        <h3><a href="http://www.comm100.com/livechat" onclick="comm100_Chat();return false;" target="_blank" title="Online Chat" style="color:#fff;"><img src="images/chat1.png"  />Online Chat</a></h3>
+      </div>
+      <!--<div class="sky-box">
+     
+   <div style="height:30px; margin-top:-23px;" class="skype">
+        <script type="text/javascript" src="js/skype-uri.js"></script>
+<div id="SkypeButton_Call_linl.stg_1" >
+  <script type="text/javascript">
+    Skype.ui({
+      "name": "chat with us",
+      "element": "SkypeButton_Call_linl.stg_1",
+      "participants": ["linl.stg"],
+      "imageColor": "white",
+      "imageSize": 24
+    });
+  </script>
+</div>
+
+     
+     </div>
+   
+      </div>-->
+      <div class="bl-box2">
+        <a href="https://www.youtube.com/channel/UCJvmjUWnPeOzvoHlKI-iJHQ"><h3><img src="images/youtube1.png" > Smart Team  Channel</h3></a>
+      </div>
+    </div>
+    <div class="col-2">
+      <div class="fleft">
+         <h1>Legal Document &amp; Records Management</h1>
+        <div >
+          <p>To stay competitive while managing the pressures of increased risk and the 
+            inevitable impact on productivity and client service, law firms, legal 
+            department of enterprise or professional services firm, require an intelligent, 
+            comprehensive and automated approach to organize, find and govern all content 
+            across the firm. Lawyers or professionals want solutions that enable them to 
+            perform at the highest levels of efficiency and effectiveness, with a user 
+            experience tailored to their specific working practices. These firms or 
+            departments need technology that compels user adoption as a means to influence 
+            users to comply with important firm policy. To ensure user acceptance, the 
+            policies necessary to protect the firm must also be easy for the individual to 
+            adopt.</p>
+          <!--<p>&nbsp;</p>-->
+          <p>Legacy approaches and solutions for managing content have become insufficient for 
+            today's data volumes, user expectations and global workforces. Autonomy uses the 
+            advanced technology of IDOL to deliver a solution that provides a quantum leap 
+            in productivity for law firms and professional services firms. Autonomy holds 
+            the key to complete information and risk management solutions for these 
+            professionals.</p>
+          <!-- <p>&nbsp;</p>-->
+          <p><b>Product Features:</b></p>
+          <!--<p>&nbsp;</p>-->
+          <ul>
+            <li><b>Matter Centric View </b>- Organize, capture and maintain all matter related 
+              documents, emails and other materials</li>
+            <li><b>Robust Document Management </b>- Manage documents, case files, and email to 
+              ensure that ethical walls are maintained as well as a comprehensive audit 
+              history for regulatory, legal or operational purposes</li>
+            <li><b>Information Access </b>- The ability to locate any content in the 
+              organization across languages and formats; including audio, video, web content, 
+              email and IM</li>
+            <li><b>Expertise Location</b> - Build communities of expertise to quickly and easily 
+              locate subject matter or industry experts by automatically clustering content 
+              contributors and resources into related groups</li>
+            <li><b>Best Practice Management </b>- Enterprise Knowledge Management that enables 
+              lawyers to add personal tags and create individual best practice document 
+              collections</li>
+            <li><b>Workflow and Automation</b> - Intelligent document review routing and 
+              approval tracking as well as meaning-based automation of manual tasks</li>
+            <li><b>Contract Management</b> - Management of clauses, templates and generation of 
+              complex documents routed for review workflow based on contract expertise</li>
+          </ul>
+          <!--<br>-->
+          <p><b>Product Differentiators:</b></p>
+         <!-- <br>-->
+          <ul>
+            <li><b>Understanding Meaning</b> - Built on unique technology that drives automation by understanding the meaning of information; enabling intelligent routing and activity generation</li>
+            <li><b>End-to-End Platform</b> - Single unified approach for document and process management with seamless connectivity across all phases of the EDRM and governance solutions</li>
+            <li><b>Unparalleled Information Access</b> - The ability to connect to more than 400 repositories and support more than 1,000 file types, independent of language</li>
+            <li><b>Seamless End-to-End Platform </b>- Only platform that covers entire spectrum of eDiscovery, proactive Meaning Based Governance and information management offerings on a common platform</li>
+            <li><b>Deployment Flexibility</b> - Choice to deploy in-house, outsourced or as a hybrid combination</li>
+            <li><b>Massive Scalability </b>- Most scalable solution with over 14 petabytes and 30 billion messages stored, 6 billion pages in active litigation review and 3 million files processed per hour</li>
+            <li><b>Proven Successful</b> - Used today by 10 of the top 10 global law firms, 75% of the Global 100 law firms and 75% of the AmLaw 100 </li>
+          </ul>
+          <!-- <p></p>--> 
+        </div>
+      </div>
+      
+      <div class="clear"></div>
+    </div>
+    <div class="clear"></div>
+  </div>
+</section>
+
+<div class="clear"><br /></div>
+
+<!--===========Social Media============-->    
+    <section>
+    	<div class="social-media wrapper">
+    <div class="icon-mid-line">
+        <div class="icon">
+            <a href="https://www.facebook.com/SmartTeamGlobalLlc"><img src="images/fb.png" /></a>
+            <a href="https://twitter.com/smartteamglb"><img src="images/twi.png" /></a>
+            <a href="https://www.youtube.com/channel/UCJvmjUWnPeOzvoHlKI-iJHQ"><img src="images/youtube.png" /></a>
+            <a href="#"><img src="images/insta.png" /></a>
+            <a href="#"><img src="images/chat.png" /></a>
+            <a href="http://weibo.com/smartteamglobal"><img src="images/gps.png" /></a>
+        </div>
+    <div class="clear"></div>
+    </div>
+</div>
+    </section>
+<!--========End============-->    
+
+    
+<!--===========Footer============-->    
+	 <footer>
+ 	<div class="twi-feed wrapper">
+    	<span>Latest Tweet:</span> 
+       <p><span>Jul 07, 2014 21:31:51 </span>- Dahui Lawyers in Beijing, China, choose STG to implement the iManage WorkSite solutions...</p>
+      	<p><span>Jul 07, 2014 21:30:54 </span>- City of Boston choose STG to perform the upgrades and migration for their HPPA System...</p>
+        <p><span>Jul 29, 2013 17:55:30 </span>- E&J Gallo Winery chose STG to enhance its Contract Management Platform powered by HP Autonomy ECM Suite...</p>
+    </div>
+    <div class="foot-link wrapper">
+    	<ul>
+        	<li><a href="about.html">Company</a></li>
+            <li><a href="sol_newsroom.html">Solutions</a></li>
+            <li><a href="prd_smart_lib.html">Products</a></li>
+            <li><a href="customers.html">Customers</a></li>
+            <li><a href="partnership.html">Partnership</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="http://supportportal.smartteamglb.com">Support Portal</a></li>
+        </ul>
+        <div class="clear"></div>
+    </div>
+    <div class="copy wrapper"> © 2014 Smart Team Global. Use constitutes acceptance of General Website  <a href="privacypolicy.html">Privacy Statement</a>
+            </div>
+ </footer>   
+
+<!--========End============-->    
+
+</body>
+</html>

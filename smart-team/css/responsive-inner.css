@@ -1,0 +1,319 @@
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px){
+	body{ margin:0; padding:0;}
+	/*==========================Header========================*/
+/*header{min-height:0px;}*/
+header.smaller{box-shadow:0 0 5px #fff;} header.smaller{} header{ position:relative; height:70px; overflow:visible;}
+header .social{ font-size:9px !important; padding:0; }
+header .logo{ text-align:center; float:none; width:50%}
+.fright ul li a.blue{ padding:8px 7px !important; font-size:12px;}
+.fright{ width:100% !important; margin:0 0 10px !important; position:relative !important; top:0 !important;}
+.fright ul li{ margin-right:8px !important;}
+.fright ul li:nth-of-type(3){  margin-right: 0;margin-top: 5px;width: 122px;}
+.search .search-text{ width: auto !important;display: none;}
+.search .search-text input[type="text"]{ width:80px !important;display: none;}
+.search .search-img{ height:33px;display: none;}
+.container{ font-size:9px;}
+/*==========================About========================*/
+.text-area1{ margin-top:27px;}
+.section1{ margin-top:75px; min-height:650px;}
+.about-text strong{ font-size:25px; line-height:25px; padding-top:25px;}
+.about-text{ padding:0 5px; margin-top:-14px;}
+.section-bg{height:1500px;}
+.section2{ height:1500px;}
+ul.office1 li{width:100% !important}
+/*==========================About End========================*/
+
+/*==========================customer========================*/
+.section2{ height:auto; margin-top:75px;}
+.about-text-1{ margin-top:55px; padding:0 5px;}
+.about-text-1 .part-1 ul li{ width:93%;}
+
+/*==========================customer end========================*/
+
+/*==========================Partnership========================*/
+.section3{ margin-top:75px; height:auto;}
+.about-text-2{ margin-top:40px; padding:0 10px;}
+.about-text-2 .part-2 ul li{ width:93%; height:auto;}
+
+/*==========================Partnership end========================*/
+
+/*==========================Office========================*/
+.text-area1 .col-1{ margin-left:10px;}
+.text-area1 .col-1 h4{ font-size:14px;}
+.text-area1 .col-1 ul li{ font-size:12px;}
+.text-area1 .col-1 .blue-box{ margin:0 0 2px;}
+.text-area1 .col-1 .blue-box h3{ font-size:15px; padding:0;}
+.text-area1 .col-1 .bl-box h3{ font-size:100%}
+.text-area1 .col-1 .sky-box h3{ font-size:100%;}
+.text-area1 .col-2 .fleft h1{ font-size:18px; margin-top:10px;}
+.text-area1 .col-2{ margin-left:10px; float:none; max-width:90%;}
+.breadcrum { display:none;}
+.col-1{ display:none;}
+.about-text-4 .part-4 ul li{ width:100%; text-align: center; padding:0;}
+/*==========================Office End========================*/
+
+/*==========================Customers 2========================*/
+.figure8{margin:20px 0 0}
+.figure8 .content8{ height:450px; padding-top:40px;}
+.figure8 .content-right8{max-width:94%; margin:0 auto; float:none; padding-top:40px; height:470px;}
+.figure8 .content-right8 h1{font-size:25px;}
+.figure8 .content-right8 h2{font-size:15px; font-weight:bold;}
+.figure8 .content-left8{display:none}
+/*==========================Customers 2 End========================*/
+
+/*==========================Footer========================*/
+
+.foot-link ul{ margin:0px  auto !important;}
+.foot-link ul li{  padding:5px 0px 5px 5px; margin:0 0 0 10px;} 
+.foot-link ul li:hover a{ text-decoration:none;}
+.social-media .icon-mid-line .icon{ margin-left:0px !important; padding:0;}
+
+/*==========================Footer End========================*/
+}
+/* iPhone 5 ( landscape)----------- */
+@media only screen and (min-width : 321px) and (max-device-width : 480px){
+	/*header{min-height:0px;}*/
+header.smaller{box-shadow:0 0 5px #fff;} header.smaller{} header{ position:relative; height:70px; overflow:visible;}
+header .social{ font-size:9px !important; padding:0; }
+header .logo{ text-align:center; float:none; width:50%}
+.fright ul li a.blue{ padding:8px 7px !important; font-size:12px;}
+.fright{ width:100% !important; margin:0 0 0px !important;}
+.search .search-text{ width:100px !important;display: none;}
+.search .search-img{ height:33px;display: none;}
+.container{ font-size:13px; margin-left:5px;}
+
+/*==========================About========================*/
+.section1{ margin-top:65px; height:476px;}
+.text-area1{ margin-top:45px;}
+.about-text strong{ font-size:25px; line-height:25px; padding-top:25px;}
+.about-text{ padding:0 5px; margin-top:-14px;}
+ul.office1 li{width:100%}
+/*==========================About End========================*/
+
+/*==========================customer========================*/
+.section2{ height:1400px; margin-top:75px;}
+.about-text-1{ margin-top:60px; padding:0 5px;}
+.about-text-1 .part-1 ul li{ width:96%;}
+.section-bg{height:1400px;}
+
+
+/*==========================customer end========================*/
+
+/*==========================Partnership========================*/
+.section3{ margin-top:66px; height:auto;}
+.about-text-2{ margin-top:40px; padding:0 10px;}
+.about-text-2 .part-2 ul li{ width:95%; height: auto;}
+
+/*==========================Partnership end========================*/
+
+/*==========================Office========================*/
+.breadcrum { display:none;}
+.text-area1 .col-1{ margin-left:10px; max-width:30%;}
+.col-1{ display:none;}
+.col-1 img{ width:100%;}
+.channel{ font-size:14px; padding-left:0;}
+.text-area1 .col-1 h4{ font-size:14px;}
+.text-area1 .col-1 ul li{ font-size:12px;}
+.text-area1 .col-1 .blue-box{ margin:0 0 2px;}
+.text-area1 .col-1 .blue-box h3{ font-size:15px; padding:0;}
+.text-area1 .col-1 .bl-box h3{ font-size:100%}
+.text-area1 .col-1 .sky-box h3{ font-size:100%;}
+.text-area1 .col-2 .fleft h1{ font-size:18px; margin-top:10px;}
+.text-area1 .col-2{ margin-left:10px; float: right; max-width:94%;}
+/*==========================Office End========================*/
+
+.figure8{margin:20px 0 0}
+
+/*==========================customers2========================*/
+
+.about-text-4{padding:0 !important;}
+.about-text-4 .part-4 ul li{ width:110px !important; margin-right:30px; margin-bottom:50px; background:none; text-align:center;}
+
+/*==========================customers2 End========================*/
+
+/*==========================Footer========================*/
+
+.foot-link ul{ margin:0px  auto !important; display:table !important}
+.foot-link ul li{ padding:5px 0 5px 5px;} 
+.foot-link ul li:hover a{ text-decoration:none;}
+.social-media .icon-mid-line .icon{ margin-left:0px !important; padding:0; max-width:100%;}
+.twi-feed{ font-size:8px;}
+.foot-link ul li a{ font-size:10px;}
+footer .copy{ font-size:10px;}
+
+/*==========================Footer End========================*/
+.fright {
+    bottom: 0;
+    left: 0;
+    position: relative !important;
+    right: 0;
+    top: 0 !important;
+    width: auto;
+}
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+	header.smaller{box-shadow:0 0 5px #fff;}
+	.fright{ width:528px !important;}
+	.section1{ margin-top:167px; height:423px;}
+	.container{ padding:4px 0 7px 10px;}
+	.about-text{ margin-top:-15px}
+		
+		/*==========================customer========================*/
+.section2{ height:auto; }
+.about-text-1 strong{ margin:0;}
+.about-text-1{ padding:0 5px;}
+.about-text-1 .part-1 ul li{ width:46%; height:270px;}
+
+/*==========================customer end========================*/
+
+/*==========================Partnership========================*/
+.section3{ margin-top:170px; height:auto;}
+.about-text-2{ margin-top:40px; padding:0 10px;}
+.about-text-2 .part-2 ul li{ width:97%; height: auto;}
+
+/*==========================Partnership end========================*/
+
+/*==========================Office========================*/
+.text-area1{ margin-top:80px;}
+.text-area1 .col-1{ margin-left:10px; max-width:30%;}
+.col-1 img{ width:100%;}
+.channel{ font-size:14px; padding-left:0;}
+ul.office1 li{ width:43% !important;word-break:break-all;}
+ul.office1 li label{ font-size:13px;}
+ul.office1 li p{ font-size:13px !important;}
+.text-area1 .col-1 h4{ font-size:14px;}
+.text-area1 .col-1 ul li{ font-size:12px;}
+.text-area1 .col-1 .blue-box{ margin:0 0 2px;}
+.text-area1 .col-1 .blue-box h3{ font-size:15px; padding:0;}
+.text-area1 .col-1 .bl-box h3{ font-size:100%}
+.text-area1 .col-1 .sky-box h3{ font-size:100%;}
+.text-area1 .col-2 .fleft h1{ font-size:18px; margin-top:10px;}
+.text-area1 .col-2{ margin-left:10px; float: right; max-width:94%;}
+/*==========================Office End========================*/
+/*==========================Customers 2========================*/
+.figure8 .content8{ height:400px; margin-top:40px; padding-top:50px;}
+.figure8 .content-right8{ margin-left:20px !important; float:left !important;  height:400px; max-width:45% !important; padding-left:20px !important;}
+.figure8 .content-right8 h1{font-size:25px;}
+.figure8 .content-right8 h2{font-size:15px; font-weight:bold;}
+.figure8 .content-left8{display: block !important;}
+.about-text-4 .part-4{ width:80%; margin:0 auto;}
+.about-text-4 .part-4 ul li{width:160px;}
+/*==========================Customers 2 End========================*/
+		
+		.foot-link ul{ margin:0 0 0 120px !important;}
+		
+		
+	}
+	
+	/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+			/*==========================customer========================*/
+.section2{ height:auto; }
+.about-text-1 strong{ margin:0;}
+.about-text-1{ padding:0 5px;}
+.about-text-1 .part-1 ul li{ width:47%; min-height:200px;}
+
+/*==========================customer end========================*/
+
+/*==========================Partnership========================*/
+.section3{ margin-top:170px; height:auto;}
+.about-text-2{ margin-top:40px; padding:0 10px;}
+.about-text-2 .part-2 ul li{ width:31%; height: auto; padding:10px 8px 10px 10px; min-height:351px;}
+
+/*==========================Partnership end========================*/
+
+
+.figure8 .content-left8{max-width:40%; margin-left:20px; padding-top:20px;}
+.figure8 .content-left8 img{max-width:98%}
+.figure8 .content-right8{max-width:53%; float:left; margin-left:20px; padding-top:20px;}
+
+
+
+/*==========================Office========================*/
+.text-area1 .col-2{ max-width:700px;}
+.text-area1{ margin-top:100px;}
+/*==========================Office End========================*/
+
+/*==========================customers2========================*/
+
+.about-text-4{padding:0 !important;}
+.about-text-4 .part-4 ul li{ width:130px !important; margin-right:24px; margin-bottom:10px; background:none;}
+
+/*==========================customers2 End========================*/
+
+.foot-link ul{ margin:0 0 0 230px !important;}
+.search .search-text{width:auto;display: none;}
+.search .search-text input[type="text"]{width:auto;display: none;}
+.search .search-img{ height:33px;display: none;}
+}
+@media only screen 
+and (min-device-width : 800px) 
+and (max-device-width : 1280px) {
+	.text-area1{margin-top:105px}
+	.text-area1 .col-2 {float: right;margin-left: 10px;max-width: 62%; margin-top:0px !important;}
+	.foot-link ul{ margin:0 0 0 170px;}
+	#cssmenu > ul > li > a{ padding:17px 16px;}
+	}
+	@media all and (max-width: 950px){
+		.text-area1 .col-1{display:none;}
+		.text-area1 .col-2{ max-width:94%; margin:0 auto; float:none;}
+	#cssmenu > ul > li > a{ padding:17px 18px !important;}
+	#cssmenu > ul > li.has-sub > a{ padding-right:0}
+	#cssmenu > ul > li.has-sub:after{ border:none !important;}
+	#cssmenu > ul > li.has-sub > a::after { border:none !important;}
+	
+	
+	
+	}
+
+@media all and (max-width: 1280px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (-o-min-device-pixel-ratio: 2/1) and (max-width: 1024px), only screen and (min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-resolution: 192dpi) and (max-width: 1024px), only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
+	.about-text-2 .part-2 ul li{width:94%; min-height:100%; height:auto;}
+	.about-text-1 .part-1 ul li{width:100%; min-height:160px; height:auto;}
+	.section2{ display:table; height:auto;}
+	.section-bg{ display:table; height:auto; width:100%}
+	ul.office1 li{ width:45%;}
+	ul.office1 li:nth-of-type(3){ width:44%;}
+	ul.office1 li:nth-of-type(4){ width:44%;}
+	/*.figure8 .content-left8{min-width:40%;margin-left:20px !important;}
+	.figure8 .content-right8{min-width:40%; float:left; margin-left:40px;}*/
+	
+	}
+
+
+@media all and (max-width: 800px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (-o-min-device-pixel-ratio: 2/1) and (max-width: 1024px), only screen and (min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-resolution: 192dpi) and (max-width: 1024px), only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
+		.fright{ margin:0 !important; width:auto;}
+		.search .search-text{ width: auto !important; margin:0;display: none;}
+		.search .search-img{ height:33px;display: none;}
+		.section .banner-right{ display:none;}
+		.section .banner-text{width:50%}
+	/*.text-area1 .col-2{ max-width:60%;}*/
+	.foot-link ul{ margin-left:70px; display:block;}
+	header .logo{ padding:0px 0 !important;}
+	.text-area1 .col-2{margin:0 auto;}
+	.container{ font-size:11px;}
+	.about-text-2 .part-2 ul li{width:94%; height:auto;}
+	/*.figure8 .content-left8{display:none}
+		.figure8 .content-right8{ max-width:94%; margin:0 auto !important; float:none;}*/
+	
+	.fright ul li:nth-of-type(3){display:none}
+			.fright {
+    bottom: 0;
+    
+    position: absolute;
+    right: 0;
+    top: 70px;
+    width: auto;
+}
+
+	
+	
+	}

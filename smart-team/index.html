@@ -1,0 +1,378 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Smart Team Global</title>
+<link rel="shortcut icon" type="image/x-icon" href="favicon.png">
+<link rel="stylesheet" href="css/stylesheet.css">
+<link rel="stylesheet" href="css/responsive.css">
+<!--<link rel="stylesheet" href="css/mobile.css">-->
+<link rel="stylesheet" href="css/ipad.css">
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:400,300,600" />
+
+
+  <!-----------------menu------------------->
+   <link rel="stylesheet" href="css/menu.css">
+   
+   <script src="js/jquery-latest.min.js" type="text/javascript"></script>
+<script src="js/script.js"></script>
+<script src="http://chatserver.comm100.com/js/LiveChat.js?siteId=44205&planId=260" 
+type="text/javascript"></script>
+    <!-----------------menu end------------------->
+    <script src="js/classie.js"></script>
+<script>
+    function init() {
+        window.addEventListener('scroll', function(e){
+            var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+                shrinkOn = 50,
+                header = document.querySelector("header");
+            if (distanceY > shrinkOn) {
+                classie.add(header,"smaller");
+            } else {
+                if (classie.has(header,"smaller")) {
+                    classie.remove(header,"smaller");
+                }
+            }
+        });
+    }
+    window.onload = init();
+</script>
+        <script type="text/javascript" src="js/scrolltopcontrol.js"></script>
+        <script type='text/javascript' src='js/jquery.nicescroll.min.js'></script>
+    <script>
+  $(document).ready(function() {
+    var nicesx = $("#boxscroll").niceScroll({touchbehavior:false,cursorcolor:"#555",cursoropacitymax:0.8,cursorwidth:3});
+  });
+
+</script>
+<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport" />
+<link rel="stylesheet" type="text/css" href="css/animations.css" />
+
+</head>
+<body id="boxscroll">
+<!--------------------Header-------------------->
+<script>
+$(document).ready(function(){
+  $(".search-img").hover(function(){
+    $(".search-text").show();
+    $("#search_text").focus(); 
+  });
+
+  $("body").click(function(){$(".search-text").hide();});
+});
+</script>
+
+
+
+<header>
+
+<div style="border-top:solid 5px #dbdbdb;"></div>
+<div id="wrapper">
+    <div>
+      <div class="logo"><a href="index.html"><img src="images/logo.jpg" width="240" height="58" border="0" /></a></div>
+        <div class="fright">
+          <ul>
+            
+                <li>
+                  <a href="office.html" class="blue">Contact Us</a>
+                </li>
+                <li>
+                  <div class="search"><form action="http://www.yahoo.com.cn/search">
+                    <div class="search-text" style="display:none;"><input type="text" placeholder="Search" name="p" id="search_text"></div>
+                    <div class="search-img"><i><input type="image" src="images/icon_search20141.png" /></i></div>
+                    <input type="hidden" name="vs" value="dwww.smartteam.cn">
+                    <div class="clear"></div>
+                    </div>
+                </li>
+				<script>
+    
+	 
+	function languageswitch(){
+	 var  temp=document.getElementById("EN").innerHTML;
+	 document.getElementById("EN").innerHTML=document.getElementById("CN").innerHTML;
+	 document.getElementById("CN").innerHTML=temp;
+	 var hreftemp=document.getElementById("EN").getAttribute("href");
+	 document.getElementById("EN").setAttribute("href",document.getElementById("CN").getAttribute("href"));
+	 document.getElementById("CN").setAttribute("href",hreftemp);
+	}
+   
+</script>
+                <li style="margin-top:8px;">
+                  <div class="select" >
+                      <a href="#" id="EN" class="globe">English</a>
+                        <div class="hide" onClick="languageswitch();return false;">
+                        <ul>
+                          <li><a href="#" id="CN">简体中文</a></li>
+                            
+                        </ul>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="clear"></div>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+
+
+<div class="clear"></div>
+<div class="nav">
+        <div id="wrapper">
+            <div id='cssmenu'>
+                <ul>
+                   <li class='has-sub'><a href='#'><span>Company</span></a>
+                      <ul>
+                         <li><a href='about.html'><span>About Us</span></a>
+                           
+                         </li>
+                         <li><a href="office.html"><span>Offices</span></a>
+                           
+                         </li>
+                         <li><a href='careers.html'><span>Careers</span></a></li>
+                      </ul>
+                   </li>
+                   <li class='has-sub'><a href='#'><span>Solutions</span></a>
+                   	<ul>
+                         <li><a href='sol_newsroom.html'><span>Converged Newsroom</span></a></li>
+                     <li><a href='sol_archive_preservation_ediscovery.html'><span>Archiving, Preservation & eDiscovery</span></a></li>
+                         <li><a href='sol_security_surverillance.html'><span>Intelligent Security & Surveillance</span></a></li>
+                         <li><a href='sol_document_records.html'><span>Legal Document & Records Management</span></a></li>
+                         <li><a href='sol_healthcare.html'><span>Meaning Based Healthcare</span></a></li>
+                         <li><a href='sol_search_knowledge.html'><span>Search & Knowledge Management</span></a></li>
+                         <li><a href='sol_web_optimization.html'><span>Digital Marketing & Optimization</span></a></li>
+                    </ul>
+                   </li>
+                    <li class='has-sub'><a href='#'><span>Products</span></a>
+                    <ul>
+						<!--If you release the Ul tag Please add class='has-sub'CSS style for Li Tags-->
+						<li class=''><a href='prd_smart_lib.html'><span>SMARTLibrary</span></a>
+						<!--<ul>
+								<li><a href="#">Asian Language Package for Autonomy Teleform</a></li>
+                                <li><a href="#">Document Builders for APA</a></li>
+                                <li><a href="#">eFax Connector for APA</a></li>
+                                <li><a href="#">Exchange Connector for APA</a></li>
+                                <li><a href="#">Google Voice Portal</a></li>
+                                <li><a href="#">IDOL Indexer for APA</a></li>
+                                <li><a href="#">Portlets for Portal-In-A-Box</a></li>
+                                <li><a href="#">PDF Reader </a></li>
+                                <li><a href="#">SharePoint Export Connect Agent</a></li>
+                                <li><a href="#">Teleform Database Lookup</a></li>
+                                <li><a href="#">Teleform Oracle UCM Export Plug-in</a></li>
+                            </ul>-->
+
+                         </li>
+                    </ul>
+                    </li>
+                     <li class='has-sub'><a href='#'><span>Customers</span></a>
+                     	<ul>
+                           
+                            <li><a href="customers.html">Case Studies</a></li>
+                            <li><a href="http://my.alfresco.com" target="_blank">Customer Portal</a></li>
+                            <li><a href='http://supportportal.smartteamglb.com' target="_blank">Support Portal</a></li>
+                        </ul>
+
+                     </li>
+                      <li class='has-sub'><a href='partnership.html'><span>Partnership</span></a>
+                      	<ul>
+                            <li><a href="partnership.html">HP Autonomy</a></li>
+                            <li><a href="partnership.html#2">EidosMedia</a></li>
+                            <li><a href="partnership.html#3">Riverbed</a></li>
+                        </ul>
+
+                      </li>
+                       <li><a href='news.html'><span>News</span></a></li>
+                   
+                </ul>
+            </div>
+        </div>
+</div>
+</header>
+
+<!--------------------end-------------------->
+
+<!--------------------Section-------------------->
+
+<div class="clear"></div>
+<section class="section">
+    <div id="wrapper">
+            <div class="banner-text"><br />
+            <!--<span class="blue"> global network of<br />consultants </span>-->
+            <span class="blue"> <br /> </span>
+            <strong>Build<br />Intelligence,<br />Together</strong><br />
+            <span class="white">We succeed together with our customers<br />with passion and trust.</span>
+    		</div>
+            <div class="banner-right">
+             <p>Our mission is to provide best value-added consulting and support services. We maintain 100% project success rate to achieve competitive advantage and lasting results. We are committed to provide solutions that drive sustainable impact.</p>
+        <p>Managing Partner: <span>Vivian Xu</span></p>
+            
+            </div>
+    </div>
+</section>
+<!--------------------Section End-------------------->
+
+<!--------------------Article-------------------->
+
+
+<!--------------------Article End-------------------->
+<div class="clear"></div>
+<!--------------------Figure-------------------->
+<section id="security">
+        <div class="content">
+                    <div id="wrapper">
+                            <div class="content-left animateblock left">
+                                <h1>SMARTLibrary</h1>
+                        		<h2>   Enhance your HP Enterprise Solution</h2>
+                             <p>SMARTLibrary is a collection of customized plugins and tasks that can be embedded into your existing HP Enterprise solutions and expand the capabilities to connect and collaborate with other main stream business applications. The latest release of SMARTLibrary includes<br />
+                                        <ul>
+                                            <li>- Doc Builder for HPPA.</li>
+                                            <li>- Exchange Connector for HPPA.</li>
+                                            <li>- Oracle UCM Export Plugin for TeleForm.</li>
+                                            <li>- iManage WorkSite Utility</li>
+                                        </ul>
+                            </p>
+                                           
+                                <p style="text-align:right;"><a href="prd_smart_lib.html">Find out More </a></p>
+                            </div>
+                        <div class="content-right animateblock right"><img src="images/pic1.jpg" /></div>
+                  </div>
+          </div>
+</section>
+<!--------------------Figure End-------------------->
+
+<!--------------------Aside-------------------->
+<section class="figure1">
+    <div class="content1">
+                <div id="wrapper">
+                    <div class="content-left1 animateblock left"><img src="images/methode.jpg" /></div>
+                    <div class="content-right1 animateblock right"><h1>Converaged Newsroom</h1>
+                    <h2>Cross-media publishing platform</h2>
+                   <p> Méthode is a new-generation editorial and publishing platform with a unique vocation for integrated multi-channel output. Méthode was specifically designed to publish content through an open-ended range of channels that include websites and portals, printed newspapers and magazines , tablet and mobile apps and any other platform or channel that may emerge in the future.</p>
+                       <br />
+                        <p style="text-align:right;"><a href="sol_newsroom.html">Find out More </a></p></div>
+              </div>
+            
+      </div>
+</section>
+<!--------------------Aside End-------------------->
+
+<section class="figure2" id="search">
+        <div class="content2">
+                <div id="wrapper">
+                    <div class="content-left2 animateblock left">
+             		  <h1>Social Intelligence </h1>
+                      <h2> Tell your story with your data</h2>
+        <p>Social Intelligence (SI) is the transformation of raw data into meaningful and useful information for business analysis purposes. BI can handle enormous amounts of unstructured data to help identify, develop and otherwise create new strategic business opportunities. BI allows for the easy interpretation of volumes of data. Identifying new opportunities and implementing an effective strategy can provide a competitive market advantage and long-term stability.</p>
+        <br />
+                        <p style="text-align:right;"><a href="#">Find out More</a></p>
+                    </div>
+                    <div class="content-right2 animateblock right"><img src="images/business.jpg"/></div>
+              </div>
+          </div>
+</section>
+
+<section class="figure5">
+            <div class="content5">
+                    <div id="wrapper">
+                        <div class="content-left5 animateblock left"><img src="images/information-gov1.png" /></div>
+                        <div class="content-right5 animateblock right">
+                        <h1> Information Governance</h1>
+                        <h2>Policy-driven management of enterprise data</h2>
+                       <p>With data volumes growing exponentially and increasing demands being placed on how to access and leverage this data, information governance is experiencing a rebirth. With Smart Team, we provide end to end solutions for your IG demands, to cover the entire life circle of your enterprise data, including business process management, record management, surveillance, supervision, consolidated archiving, legal hold, analytic, universal search, reviewing and production. </p>
+                          <br />
+                            <p style="text-align:right;"><a href="#">Find out More </a></p></div>
+                  </div>
+              </div>
+</section>
+<section>
+
+<div class="clear"><br /><br /><br /><br /></div>
+
+        <div id="wrapper" class="study">	
+        <h1 align="center">Case Study</h1><h2 align="center">Hear From Our Customers</h2>
+        <img src="images/Boston.jpg"/><p>As a long-term professional service partner of City of Boston, Smart Team Global, recognized by HP Autonomy as one of the key Top & Global Partners, has always been proud to delivery 100% customer satisfying solutions when new request pop up in order to help City of Boston to archive its next success. </p><br />
+        <div class="clear"><br /></div>
+        <img src="images/EJGallo.jpg"/><p>Founded in 1933 by Ernest Gallo and Julio Gallo, E & J Gallo  Winery is the largest private owned winery and distributor in U.S. Smart Team Global tailed an elaborate solution for E.&J. Gallo Winery's HP Enterprise Content Management system to make each component works seamlessly and greatly improved the work efficiency and content security.</p>
+          <br />
+          <p  align="center" style="text-align: right; float:right; margin-right:20px;"><a href="#">Find out More </a></p>
+        </div>
+</section>
+
+<div class="clear"><br /></div>
+
+<!--===========Social Media============-->    
+    <section>
+    	<div class="social-media wrapper">
+    <div class="icon-mid-line">
+        <div class="icon">
+            <a href="https://www.facebook.com/SmartTeamGlobalLlc"><img src="images/fb.png" /></a>
+            <a href="https://twitter.com/smartteamglb"><img src="images/twi.png" /></a>
+            <a href="https://www.youtube.com/channel/UCJvmjUWnPeOzvoHlKI-iJHQ"><img src="images/youtube.png" /></a>
+            <a href="#"><img src="images/insta.png" /></a>
+            <a href="#"><img src="images/chat.png" /></a>
+            <a href="http://weibo.com/smartteamglobal"><img src="images/gps.png" /></a>
+        </div>
+    <div class="clear"></div>
+    </div>
+</div>
+    </section>
+<!--========End============-->    
+    
+<!--===========Footer============-->    
+	 <footer>
+ 	<div class="twi-feed wrapper">
+    	<span>Latest Tweet:</span> 
+       <p><span>Jul 07, 2014 21:31:51</span> - Dahui Lawyers in Beijing, China, choose STG to implement the iManage WorkSite solutions...</p>
+      	<p><span>Jul 07, 2014 21:30:54 </span>- City of Boston choose STG to perform the upgrades and migration for their HPPA System...</p>
+        <p><span>Jul 29, 2013 17:55:30</span> - E&J Gallo Winery chose STG to enhance its Contract Management Platform powered by HP Autonomy ECM Suite...</p>
+    </div>
+    <div class="foot-link wrapper"> 
+    	<ul>
+        	<li><a href="about.html">Company</a></li>
+            <li><a href="sol_newsroom.html">Solutions</a></li>
+            <li><a href="prd_smart_lib.html">Products</a></li>
+            <li><a href="customers.html">Customers</a></li>
+            <li><a href="partnership.html">Partnership</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="http://supportportal.smartteamglb.com">Support Portal</a></li>
+        </ul>
+        <div class="clear"></div>
+    </div>
+    <div class="copy wrapper"> © 2014 Smart Team Global. Use constitutes acceptance of General Website <a href="privacypolicy.html">Privacy Statement</a>
+            </div>
+ </footer>   
+
+<!--========End============-->    
+
+<script type="text/javascript">
+$(function(){
+  var $elems = $('.animateblock');
+  var winheight = $(window).height();
+  var fullheight = $(document).height();
+  
+  $(window).scroll(function(){
+    animate_elems();
+  });
+  
+  function animate_elems() {
+    wintop = $(window).scrollTop(); // calculate distance from top of window
+ 
+    // loop through each item to check when it animates
+    $elems.each(function(){
+      $elm = $(this);
+      
+      if($elm.hasClass('animated')) { return true; } // if already animated skip to the next item
+      
+      topcoords = $elm.offset().top; // element's distance from top of page in pixels
+      
+      if(wintop > (topcoords - (winheight*.75))) {
+        // animate when top of the window is 3/4 above the element
+        $elm.addClass('animated');
+      }
+    });
+  } // end animate_elems()
+});
+</script>
+
+
+</body>
+</html>

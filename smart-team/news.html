@@ -1,0 +1,379 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Smart Team Global</title>
+<link rel="shortcut icon" type="image/x-icon" href="favicon.png">
+<link rel="stylesheet" href="css/stylesheet.css">
+<link rel="stylesheet" href="css/responsive-inner.css">
+<link rel="stylesheet" href="css/ipad.css">
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:400,300,600" />
+
+
+  <!-----------------menu------------------->
+   <link rel="stylesheet" href="css/menu.css">
+   <script src="js/jquery-latest.min.js" type="text/javascript"></script>
+<script src="js/script.js"></script>
+<script src="http://chatserver.comm100.com/js/LiveChat.js?siteId=44205&planId=260" 
+type="text/javascript"></script>
+    <!-----------------menu end------------------->
+    <script src="js/classie.js"></script>
+<script>
+    function init() {
+        window.addEventListener('scroll', function(e){
+            var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+                shrinkOn = 50,
+                header = document.querySelector("header");
+            if (distanceY > shrinkOn) {
+                classie.add(header,"smaller");
+            } else {
+                if (classie.has(header,"smaller")) {
+                    classie.remove(header,"smaller");
+                }
+            }
+        });
+    }
+    window.onload = init();
+</script>
+        <script type="text/javascript" src="js/scrolltopcontrol.js"></script>
+        <script type='text/javascript' src='js/jquery.nicescroll.min.js'></script>
+    <script>
+  $(document).ready(function() {
+    var nicesx = $("#boxscroll").niceScroll({touchbehavior:false,cursorcolor:"#555",cursoropacitymax:0.8,cursorwidth:3});
+  });
+
+</script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('.show_more').hide();
+        $('.more').click(function(){
+           $('.show_more').show('slow'); 
+       $('.more').hide();
+        });
+        $('.less').click(function(){
+           $('.show_more').hide('slow'); 
+       $('.more').show();
+        });
+    
+    $('.show_more1').hide();
+        $('.more1').click(function(){
+           $('.show_more1').show('slow'); 
+       $('.more1').hide();
+        });
+        $('.less1').click(function(){
+           $('.show_more1').hide('slow'); 
+       $('.more1').show();
+        });
+    
+    $('.show_more2').hide();
+        $('.more2').click(function(){
+           $('.show_more2').show('slow'); 
+       $('.more2').hide();
+        });
+        $('.less2').click(function(){
+           $('.show_more2').hide('slow'); 
+       $('.more2').show();
+        });
+    
+    $('.show_more3').hide();
+        $('.more3').click(function(){
+           $('.show_more3').show('slow'); 
+       $('.more3').hide();
+        });
+        $('.less3').click(function(){
+           $('.show_more3').hide('slow'); 
+       $('.more3').show();
+        });
+    });
+    
+</script>
+<style>
+.text-area1 .col-2 .fleft ul li{background:none}
+.text-area1 .col-2 .fleft span{ font-size:12px; margin:0;}
+.text-area1 .col-2 .fleft ul li{padding-left:0}
+</style>
+
+<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport" />
+<link rel="stylesheet" type="text/css" href="css/animations.css" />
+
+</head>
+<body id="boxscroll">
+<!--------------------Header-------------------->
+<script>
+$(document).ready(function(){
+  $(".search-img").hover(function(){
+    $(".search-text").show();
+    $("#search_text").focus(); 
+  });
+
+  $("body").click(function(){$(".search-text").hide();});
+});
+</script>
+
+
+
+<header>
+
+<div style="border-top:solid 5px #dbdbdb;"></div>
+<div id="wrapper">
+    <div>
+      <div class="logo"><a href="index.html"><img src="images/logo.jpg" width="240" height="58" border="0" /></a></div>
+        <div class="fright">
+          <ul>
+            
+                <li>
+                  <a href="office.html" class="blue">Contact Us</a>
+                </li>
+                <li>
+                  <div class="search"><form action="http://www.yahoo.com.cn/search">
+                    <div class="search-text" style="display:none;"><input type="text" placeholder="Search" name="p" id="search_text"></div>
+                    <div class="search-img"><i><input type="image" src="images/icon_search20141.png" /></i></div>
+                    <input type="hidden" name="vs" value="www.smartteam.cn">
+                    <div class="clear"></div>
+                    </div>
+                </li>
+					<script>
+    
+	 
+	function languageswitch(){
+	 var  temp=document.getElementById("EN").innerHTML;
+	 document.getElementById("EN").innerHTML=document.getElementById("CN").innerHTML;
+	 document.getElementById("CN").innerHTML=temp;
+	 var hreftemp=document.getElementById("EN").getAttribute("href");
+	 document.getElementById("EN").setAttribute("href",document.getElementById("CN").getAttribute("href"));
+	 document.getElementById("CN").setAttribute("href",hreftemp);
+	}
+   
+</script>
+                <li style="margin-top:8px;">
+                  <div class="select">
+                      <a href="#" id="EN" class="globe">English</a>
+                        <div class="hide" onClick="languageswitch();return false;">
+                        <ul>
+                         <li><a href="#" id="CN">简体中文</a></li>
+                        </ul>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="clear"></div>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+
+
+<div class="clear"></div>
+<div class="nav">
+        <div id="wrapper">
+            <div id='cssmenu'>
+                <ul>
+                   <li class='has-sub'><a href='#'><span>Company</span></a>
+                      <ul>
+                         <li><a href='about.html'><span>About Us</span></a>
+                           
+                         </li>
+                         <li><a href="office.html"><span>Offices</span></a>
+                           
+                         </li>
+                         <li><a href='careers.html'><span>Careers</span></a></li>
+                      </ul>
+                   </li>
+                   <li class='has-sub'><a href='#'><span>Solutions</span></a>
+                    <ul>
+                         <li><a href='sol_newsroom.html'><span>Converged Newsroom</span></a></li>
+            <li><a href='sol_archive_preservation_ediscovery.html'><span>Archiving, Preservation & eDiscovery</span></a></li>
+                         <li><a href='sol_security_surverillance.html'><span>Intelligent Security & Surveillance</span></a></li>
+                         <li><a href='sol_document_records.html'><span>Legal Document & Records Management</span></a></li>
+                         <li><a href='sol_healthcare.html'><span>Meaning Based Healthcare</span></a></li>
+                         <li><a href='sol_search_knowledge.html'><span>Search & Knowledge Management</span></a></li>
+                         <li><a href='sol_web_optimization.html'><span>Digital Marketing & Optimization</span></a></li>
+                    </ul>
+                   </li>
+                    <li class='has-sub'><a href='#'><span>Products</span></a>
+                    <ul>
+                         <li class=''><a href='prd_smart_lib.html'><span>SMARTLibrary</span></a>
+                        <!--<ul>
+                <li><a href="#">Asian Language Package for Autonomy Teleform</a></li>
+                                <li><a href="#">Document Builders for APA</a></li>
+                                <li><a href="#">eFax Connector for APA</a></li>
+                                <li><a href="#">Exchange Connector for APA</a></li>
+                                <li><a href="#">Google Voice Portal</a></li>
+                                <li><a href="#">IDOL Indexer for APA</a></li>
+                                <li><a href="#">Portlets for Portal-In-A-Box</a></li>
+                                <li><a href="#">PDF Reader </a></li>
+                                <li><a href="#">SharePoint Export Connect Agent</a></li>
+                                <li><a href="#">Teleform Database Lookup</a></li>
+                                <li><a href="#">Teleform Oracle UCM Export Plug-in</a></li>
+                            </ul>-->
+
+                         </li>
+                    </ul>
+                    </li>
+                     <li class='has-sub'><a href='#'><span>Customers</span></a>
+                      <ul>
+                            
+                            <li><a href="customers.html">Case Studies</a></li>
+                            <li><a href="http://my.alfresco.com" target="_blank">Customer Portal</a></li>
+                            <li><a href='http://supportportal.smartteamglb.com' target="_blank">Support Portal</a></li>
+                        </ul>
+
+                     </li>
+                      <li class='has-sub'><a href='partnership.html'><span>Partnership</span></a>
+                        <ul>
+                            <li><a href="customers.html">HP Autonomy</a></li>
+                            <li><a href="partnership.html">EidosMedia</a></li>
+                            <li><a href="partnership.html">Riverbed</a></li>
+                        </ul>
+
+                      </li>
+                       <li><a href='news.html'><span>News</span></a></li>
+                   
+                </ul>
+            </div>
+        </div>
+</div>
+</header>
+
+<!--------------------end-------------------->
+
+<section>
+  <div class="breadcrum wrapper"> <a href="#">Home</a> / <a href="#">Company</a> / <em>About Us</em> </div>
+  <div class="text-area1 wrapper">
+    <div class="col-1"> 
+      <h4>Company</h4>
+                <ul>
+                  <li><a href="about.html">About Us</a></li>
+                   
+                    <li><a href="office.html">Offices</a></li>
+                    <li><a href="careers.html">Careers</a></li>
+                </ul>
+            
+
+      <div class="phone-box">
+      <h3><img src="images/ph-icone.png" width="17" height="22" />1.855.88.SMART</h3></div>
+      <div class="bl-box">
+         <h3><a href="mailto:web@smartteamglb.com" style="color:#fff;"><img src="images/email.png"  />Email Us</a></h3>
+      </div>
+      <!--<div class="sky-box">
+     
+   <div style="height:30px; margin-top:-23px;" class="skype">
+        <script type="text/javascript" src="js/skype-uri.js"></script>
+<div id="SkypeButton_Call_linl.stg_1" >
+  <script type="text/javascript">
+    Skype.ui({
+      "name": "chat with us",
+      "element": "SkypeButton_Call_linl.stg_1",
+      "participants": ["linl.stg"],
+      "imageColor": "white",
+      "imageSize": 24
+    });
+  </script>
+</div>
+
+     
+     </div>
+   
+      </div>-->
+      <div class="sky-box">
+        <h3><a href="http://www.comm100.com/livechat" onclick="comm100_Chat();return false;" target="_blank" title="Online Chat" style="color:#fff;"><img src="images/chat1.png"  />Online Chat</a></h3>
+      </div>
+      <div class="bl-box2">
+        <a href="https://www.youtube.com/watch?v=RvXZHgeb3fc"><h3><img src="images/youtube1.png" > Smart Team Channel</h3></a>
+      </div>
+    </div>
+    <div class="col-2">
+      <div class="fleft">
+        <h1>News</h1>
+        <ul class="news1">
+            <li>
+                <label>ChinaTrust Commercial Bank chooses STG</label><br />
+                <span>Chinatrust Commercial Bank (CTCB) chose STG to provide professional services to for its Web Content Management platform.</span>
+                <p>The current inefficient manual processes cannot cater for DaHui's fast growing legal team any more, after further marketing research, DaHui Lawyers adopted HP Autonomy iManage Worksite solution to their document-management project. STG, recognized by HP as one if the key Top & Global Partner, was honored to have the opportunity to implement law firm best practice to DaHui lawyers <br><a href="javascript:void(0);"><em class="more">Read More...</em></a></p>
+                <p class="show_more">The solution, called HP Autonomy iManage Worksite, is integrated with mainstream office software (such as Microsoft Office, Outlook etc.) and enables to handle email filing requirement. The function of document management could protect of confidential information, reduce access to sensitive content, and increase control of assets and expertise, but also improve business process efficiency.</p>
+                <i class="show_more">**About DaHui Lawyers 
+DaHui Lawyers provides innovative and practical legal solutions to PRC and international clients across a broad range of industries and legal environments. They draw on the skill and work ethic of their dedicated attorneys to serve clients at the highest international standards. From their two offices in Beijing and Shanghai, they represent their corporate clients throughout China and internationally. <br><a href="javascript:void(0);"><em class="less">Read Less</em></a></i>
+            </li>
+            <li>
+                <label>E&J Gallo Winery chose STG to enhance their current Autonomy ECM solution</label><br />
+                <span>E&J chose STG to enhance their current ECM (Enterprise Content Management) solution to enable new features, improve their system capabilities, productivity and performance. </span>
+                <p>E&J Gallo has been running an efficient legal processing platform by leveraging Autonomy ECM solution founed on APA & iManage. STG, recognized by HP as one of the key Top & Global Partners, was honored to be selected to provide professional services to achieve the next success <br><a href="javascript:void(0);"><em class="more1">Read More...</em></a></p>
+                <i class="show_more1">**About E&J Gallo Winery 
+E & J Gallo Winery is a winery and distributor headquartered in Modesto, California. It was founded in 1933 by Ernest Gallo and Julio Gallo, and is the largest exporter of California wines.<br> <a href="javascript:void(0);"><em class="less1">Read Less</em></a></i>
+            </li>
+            <li>
+                <label>Daiwa Capital Markets Satisfied With STG Pro. Services</label><br />
+                <span>Daiwa chose STG Professional Services to upgrade and migrate their current LiquidOffice system to APA 7.3.1 (Autonomy Process Automation). </span>
+                <p>Daiwa Capital Markets America Inc , a long time Autonomy customer, has adopted Autonomy's BPM solution as one of its most critical data warehousing. APA, as a new version of Cardiff LiquidOffice introduces a lot of new features and supports the latest OS in the market. As one of the go-to Autonomy ECM partner in North Amercia and a long time trustworthy partner of Daiwa, STG advised, planned and implemented a flawless upgrade and migration for the customer with enabling the new features into the upgraded solution. STG was honored to continue providing both professional services and day-to-day support services and retaining another "Happy Customer". <br><a href="javascript:void(0);"><em class="more2">Read More...</em></a></p>
+                <i class="show_more2">**About First Commercial Bank<br/>
+**About Daiwa Capital Markets America Inc.<br/>
+Daiwa Capital Markets America Inc., was formed in 1964, and until April 1, 2010 was known as Daiwa Securities America Inc. We are a registered securities broker-dealer, a futures commission merchant, a Primary Dealer of U.S. Treasury securities, and a member of the New York Stock Exchange and other major U.S. exchanges. Currently, we focus mainly on sales and trading of Japanese, Asian, and U.S. equities, fixed income instruments, financial futures, and investment banking. Its parent company is Daiwa Capital Markets America Holdings Inc. (formerly known as Daiwa America Corporation), which is a wholly owned subsidiary of Daiwa International Holdings Inc., which itself is a subsidiary of Daiwa Securities Group Inc.<br><a href="javascript:void(0);"><em class="less2">Read Less</em></a></i>
+            </li>
+            
+            <li>
+                <label>First Commercial Bank chose STG to upgrade its TeamSite based WCM with multi-years Support Services</label><br />
+                <span>As the best Mandarin speaking Professional Service firm focusing on Autonomy with tremendous implementation experience worldwide, FCB believes that they have found the right partner that committed to "Happy Customer" and also understands the Chinese culture with local operation.</span>
+                <p>First Commercial Bank has been struggling to locate a local reliable service vendor who understands the full Autonomy Web Content Management solution and could guide FCB to continue optimize its existing TeamSite infrastructure, adding value to its digital asset management & publishing and e-commerce infrastructure. With HP Autonomy's assistance, the first meeting was held between FCB & STG last summer in Taipei <br><a href="javascript:void(0);"><em class="more3">Read More...</em></a></p>
+                <p class="show_more3">As the best Mandarin speaking Professional Service firm focusing on Autonomy with tremendous implementation experience worldwide, FCB believes that they have found the right partner that committed to "Happy Customer" and also understands the Chinese culture with local operation. On Jan. 31st, STG attended the public bidding of "FCB WCM Upgrade, Support & Maintenance" and won the bid. Once again, STG has approved that localized certified Autonomy expertise is the key to guarantee customer satisfaction. STG's quick growth in Taiwan will eventually benefit all customer to restore the confidence to Autonomy solutions in the region. </p>
+                <i class="show_more3">**About First Commercial Bank<br/>
+First Commercial Bank was originally established on November 26, 1899 as Savings Bank of Taiwan. On January 22, 1998 the Bank was transformed from a government entity into a private bank. After the establishment of First Financial Holding Co. on January 2, 2003, the Bank became a subsidiary of First Financial Group. The Bank has now been in business for more than a century. As of September 2012, the Bank's capital was NT$62.72 billion. In terms of total assets and Tier 1 capital, it ranked among the world's top 250 banks. There are 17 branches, one representative office, and one subsidiary with seven branches in major international metropolitan areas and financial centers to provide a full range of services and satisfy the operating needs of overseas Taiwanese enterprises.<br><a href="javascript:void(0);"><em class="less3">Read Less</em></a></i>
+            </li>
+            
+            </ul>
+                    <div class="clear"></div>
+      </div>
+    
+      <div class="clear"></div>
+    </div>
+    <div class="clear"></div>
+  </div>
+</section>
+
+<div class="clear"><br /></div>
+
+<!--===========Social Media============-->    
+    <section>
+      <div class="social-media wrapper">
+    <div class="icon-mid-line">
+        <div class="icon">
+            <a href="https://www.facebook.com/SmartTeamGlobalLlc"><img src="images/fb.png" /></a>
+            <a href="https://twitter.com/smartteamglb"><img src="images/twi.png" /></a>
+            <a href="https://www.youtube.com/channel/UCJvmjUWnPeOzvoHlKI-iJHQ"><img src="images/youtube.png" /></a>
+            <a href="#"><img src="images/insta.png" /></a>
+            <a href="#"><img src="images/chat.png" /></a>
+            <a href="http://weibo.com/smartteamglobal"><img src="images/gps.png" /></a>
+        </div>
+    <div class="clear"></div>
+    </div>
+</div>
+    </section>
+<!--========End============-->    
+
+    
+<!--===========Footer============-->    
+   <footer>
+  <div class="twi-feed wrapper">
+      <span>Latest Tweet:</span> 
+       <p><span>Jul 07, 2014 21:31:51</span> - Dahui Lawyers in Beijing, China, choose STG to implement the iManage WorkSite solutions...</p>
+        <p><span>Jul 07, 2014 21:30:54</span> - City of Boston choose STG to perform the upgrades and migration for their HPPA System...</p>
+        <p><span>Jul 29, 2013 17:55:30</span> - E&J Gallo Winery chose STG to enhance its Contract Management Platform powered by HP Autonomy ECM Suite...</p>
+    </div>
+    <div class="foot-link wrapper">
+      <ul>
+          <li><a href="about.html">Company</a></li>
+            <li><a href="sol_newsroom.html">Solutions</a></li>
+            <li><a href="prd_smart_lib.html">Products</a></li>
+            <li><a href="customers.html">Customers</a></li>
+            <li><a href="partnership.html">Partnership</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="http://supportportal.smartteamglb.com">Support Portal</a></li>
+        </ul>
+        <div class="clear"></div>
+    </div>
+    <div class="copy wrapper"> © 2014 Smart Team Global. Use constitutes acceptance of General Website  <a href="privacypolicy.html">Privacy Statement</a>
+            </div>
+ </footer>   
+
+<!--========End============-->    
+
+</body>
+</html>
