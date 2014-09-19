@@ -6,8 +6,7 @@ header.smaller{} header.smaller{} header{ position:relative; height:50px; overfl
 header .social{ font-size:9px !important; padding:0; }
 header .logo{ text-align:center; float:none; width:100%}
 header .logo img{ width:100%; height:100%}
-#wrapper{width:40%; max-width:1170px; margin:0 auto; padding:0;}
-.wrapper{width:40%; max-width:1170px; margin:0 auto; padding:0;}
+
 .section{ margin:0 !important; height:200px !important; width:100%}
 .section .banner-text{ height:190px !important; width:94% !important; margin-top:10px;padding:0 10px;}
 .section .banner-text br{ }
@@ -317,8 +316,7 @@ header .social{ font-size:9px !important; padding:0; }
 header .logo{ text-align:center; float:none; width:50%}
 header .logo img{ width:100%; height:100%}	
 .section{ margin:0 !important; height:200px !important; width:100%}
-#wrapper{width:40%; max-width:1170px; margin:0 auto; padding:0;}
-.wrapper{width:40%; max-width:1170px; margin:0 auto; padding:0;}
+
 
 .section .banner-text br{ }
 .section strong{ font-size:15px !important; line-height:normal; width:40%;word-break:break-all }
@@ -477,8 +475,7 @@ section .content{ width:95%; margin:0 auto;}
 section .content-left{ max-width:58%;padding-top:80px; height:430px}
 section .content-right{max-width:40%; padding-top:40px;}
 section .content-right img{width:98%}
-#wrapper{width:40%; max-width:1170px; margin:0 auto; padding:0;}
-.wrapper{width:40%; max-width:1170px; margin:0 auto; padding:0;}
+
 .figure1 .content-left1{max-width:94%; margin-left:20px;}
 .figure1 .content-left1 img{width:98%}
 .figure1 .content-right1{ width:100%; float:left; margin-left:20px;}
@@ -561,7 +558,7 @@ and (max-width : 979px){
 
 	
 	@media all and (max-width: 1280px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (-o-min-device-pixel-ratio: 2/1) and (max-width: 1024px), only screen and (min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-resolution: 192dpi) and (max-width: 1024px), only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
-	.study p{ width:80%; float:left;}	
+	.study p{ width:80%; float:left;margin-right: 23px;}	
 	.section strong{ line-height:normal;}
 	section .content-left{min-width:40%;}
 	section .content-right{min-width:40%; float:left; margin-left:19px;}
